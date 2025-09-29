@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Destination Predictor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .form-select, .form-checkbox, .form-range {
+            transition: all 0.3s ease;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .spinner, #loadingSpinner {
+            border-top-color: #3498db;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .itinerary-content h4 {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+         .itinerary-content h5 {
+            font-size: 1rem;
+            font-weight: bold;
+            margin-top: 0.75rem;
+            color: #334155;
+        }
+        .itinerary-content ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        <!-- Header -->
+        <header class="text-center mb-8 md:mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900">AI Destination Predictor</h1>
+            <p class="text-lg md:text-xl text-gray-600 mt-2">Find your next perfect getaway in Jharkhand!</p>
+        </header>
+
+        <!-- Prediction Form -->
+        <main class="max-w-4xl mx-auto bg-white p-6 md:p-8 rounded-2xl shadow-lg">
+            <form id="predictionForm">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Destination Type -->
+                    <div>
+                        <label for="destinationType" class="block text-lg font-medium text-gray-700 mb-2">What kind of place are you looking for?</label>
+                        <select id="destinationType" name="destinationType" class="form-select w-full p-3 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Any Type</option>
+                            <!-- Options will be populated by JS -->
+                        </select>
+                    </div>
+
+                    <!-- Best time to visit -->
+                    <div>
+                         <label for="visitTime" class="block text-lg font-medium text-gray-700 mb-2">When do you plan to visit?</label>
+                         <select id="visitTime" name="visitTime" class="form-select w-full p-3 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Any Time</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                         </select>
+                    </div>
+
+                    <!-- City Selection -->
+                    <div>
+                        <label for="citySelect" class="block text-lg font-medium text-gray-700 mb-2">Choose a city:</label>
+                        <select id="citySelect" name="city" class="form-select w-full p-3 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Any City</option>
+                            <!-- Options will be populated by JS -->
+                        </select>
+                    </div>
+
+                    <!-- Max Price -->
+                    <div>
+                        <label for="priceRange" class="block text-lg font-medium text-gray-700 mb-2">Max Ticket Price: <span id="priceValue" class="font-bold text-blue-600"></span></label>
+                        <input type="range" id="priceRange" name="price" min="0" max="200" step="10" class="form-range w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                    </div>
+
+                    <!-- Total Day Budget -->
+                    <div class="md:col-span-2">
+                        <label for="budgetRange" class="block text-lg font-medium text-gray-700 mb-2">Total Day Budget: <span id="budgetValue" class="font-bold text-green-600"></span></label>
+                        <input type="range" id="budgetRange" name="budget" min="500" max="5000" step="100" class="form-range w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                    </div>
+                </div>
+
+                <!-- Activities -->
+                <div class="mt-8">
+                    <label class="block text-lg font-medium text-gray-700 mb-3">What activities do you enjoy?</label>
+                    <div id="activitiesContainer" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                        <!-- Checkboxes will be populated by JS -->
+                    </div>
+                </div>
+                
+                <!-- Submit Button -->
+                <div class="mt-8 text-center">
+                    <button type="submit" class="w-full md:w-auto bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 transition duration-300 transform hover:scale-105">
+                        Predict My Perfect Destination
+                    </button>
+                </div>
+            </form>
+        </main>
+
+        <!-- Results Section -->
+        <section id="resultsSection" class="max-w-4xl mx-auto mt-12 hidden">
+             <div id="loadingSpinner" class="hidden w-16 h-16 border-4 border-gray-200 rounded-full animate-spin mx-auto mb-6"></div>
+            <h2 class="text-3xl font-bold text-center mb-8">Our Top Recommendations For You!</h2>
+            <div id="resultsContainer" class="grid grid-cols-1 gap-8">
+                <!-- Results will be injected here -->
+            </div>
+             <div id="noResults" class="hidden text-center bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 rounded-lg">
+                <p class="font-bold">No exact match found!</p>
+                <p>We couldn't find a perfect match for your specific preferences. Here are some popular general recommendations for you to explore.</p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // --- DATA (from a_deduped.json) ---
+        const touristData = [
+          {
+            "name": "Betla National Park",
+            "type": "National Park & Historical Site",
+            "location": "Palamu, Jharkhand",
+            "general_info": { "distance_from_ranchi": "165 kms", "established_year": 1986 },
+            "visitor_info": { "best_time_to_visit": "All year", "activities": ["wildlife viewing", "jeep safari", "historical exploration"], "fees_and_hours": { "entry": "Varies" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Dassam Falls",
+            "type": "Natural & Eco-tourism Site",
+            "location": "Tamar, Jharkhand",
+            "general_info": { "distance_from_ranchi": "40 kms" },
+            "visitor_info": { "best_time_to_visit": "Monsoon season (July to September)", "activities": ["picnics", "photography", "trekking"], "fees_and_hours": { "entry": "₹10" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Sun Temple",
+            "type": "Religious & Architectural Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "distance_from_ranchi": "39 kms" },
+            "visitor_info": { "best_time_to_visit": "October to February", "activities": ["worship", "photography", "architecture exploration"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Hundru Falls",
+            "type": "Natural & Eco-tourism Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "distance_from_ranchi": "45 kms" },
+            "visitor_info": { "best_time_to_visit": "Monsoon season (July to September)", "activities": ["trekking", "picnics", "photography"], "fees_and_hours": { "entry": "₹10" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Netarhat",
+            "type": "Hill Station & Eco-tourism Site",
+            "location": "Latehar, Jharkhand",
+            "general_info": { "distance_from_ranchi": "156 kms" },
+            "visitor_info": { "best_time_to_visit": "March to April, and October to December", "activities": ["trekking", "sightseeing", "watching sunrise and sunset"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Baidyanath Dham Temple",
+            "type": "Religious & Cultural Site",
+            "location": "Deoghar, Jharkhand",
+            "general_info": { "distance_from_ranchi": "250 kms" },
+            "visitor_info": { "best_time_to_visit": "All year, especially during Sawan Mela", "activities": ["worship", "pilgrimage", "exploring local markets"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Parasnath Hill",
+            "type": "Religious & Eco-tourism Site",
+            "location": "Giridih, Jharkhand",
+            "general_info": { "distance_from_ranchi": "180 kms" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["trekking", "visiting various Jain temples"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Hazaribagh National Park",
+            "type": "National Park & Wildlife Sanctuary",
+            "location": "Hazaribagh, Jharkhand",
+            "general_info": { "distance_from_ranchi": "135 kms" },
+            "visitor_info": { "best_time_to_visit": "October to April", "activities": ["jeep safari", "wildlife viewing"], "fees_and_hours": { "entry": { "indians": { "adult": "₹50" } } } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Udhwa Lake Bird Sanctuary",
+            "type": "Bird Sanctuary & Eco-tourism Site",
+            "location": "Sahibganj, Jharkhand",
+            "general_info": { "distance_from_ranchi": "350 kms" },
+            "visitor_info": { "best_time_to_visit": "Winter season", "activities": ["birdwatching", "photography"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Suraj Kund (Hot Spring)",
+            "type": "Natural & Religious Site",
+            "location": "Hazaribagh, Jharkhand",
+            "general_info": { "distance_from_hazaribagh": "60 kms" },
+            "visitor_info": { "best_time_to_visit": "Winter season", "activities": ["bathing in the spring", "religious pilgrimage"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Tagore Hill",
+            "type": "Cultural & Eco-tourism Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "distance_from_ranchi": "5 kms" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["rock climbing", "trekking", "family picnics"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Jonha Falls",
+            "type": "Natural & Eco-tourism Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": {"distance_from_ranchi": "40 kms"},
+            "visitor_info": { "best_time_to_visit": "August to November", "activities": ["trekking", "picnics", "photography"], "fees_and_hours": {"entry": "₹10"} },
+            "social_media_sentiment": {"overall_sentiment": "positive"}
+          },
+          {
+            "name": "Lodh Falls",
+            "type": "Natural & Eco-tourism Site",
+            "location": "Latehar, Jharkhand",
+            "general_info": {"distance_from_ranchi": "200 kms"},
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["trekking", "photography", "wildlife viewing"], "fees_and_hours": {"entry": "Free"} },
+            "social_media_sentiment": {"overall_sentiment": "highly positive"}
+          },
+          {
+            "name": "Jubilee Park",
+            "type": "Recreational & Cultural Site",
+            "location": "Jamshedpur, Jharkhand",
+            "general_info": { "description": "A vast park and garden" },
+            "visitor_info": { "best_time_to_visit": "October to February", "activities": ["strolling", "boating", "light and sound show"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Dimna Lake",
+            "type": "Natural & Eco-tourism Site",
+            "location": "Jamshedpur, Jharkhand",
+            "general_info": { "distance_from_jamshedpur": "13 kms" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["boating", "jet skiing", "rowing", "picnics"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Nakshatra Van",
+            "type": "Eco & Spiritual Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "description": "A park based on astrological constellations" },
+            "visitor_info": { "best_time_to_visit": "All year", "activities": ["walking", "meditation", "astrological exploration"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Maithon Dam",
+            "type": "Eco-tourism & Engineering Site",
+            "location": "Dhanbad, Jharkhand",
+            "general_info": { "distance_from_dhanbad": "48 kms" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["boating", "picnics", "exploring the deer park"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Palamu Fort",
+            "type": "Historical & Architectural Site",
+            "location": "Palamu, Jharkhand",
+            "general_info": { "distance_from_ranchi": "165 kms" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["trekking", "photography", "historical exploration"], "fees_and_hours": { "entry": "Included in Betla National Park entry fee" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Dalma Wildlife Sanctuary",
+            "type": "Wildlife Sanctuary & Eco-tourism Site",
+            "location": "Jamshedpur, Jharkhand",
+            "general_info": { "distance_from_jamshedpur": "10 kms" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["jeep safari", "wildlife viewing", "trekking"], "fees_and_hours": { "entry": { "indians": { "adult": "₹50" } } } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Jagannath Temple, Ranchi",
+            "type": "Religious & Cultural Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "built_in": "1691 AD" },
+            "visitor_info": { "best_time_to_visit": "All year round", "activities": ["worship", "exploring temple architecture", "attending festivals"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Birsa Zoological Park",
+            "type": "Eco-tourism & Wildlife Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "distance_from_ranchi": "16 kms" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["animal viewing", "boating", "picnics"], "fees_and_hours": { "entry": "₹30" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Rock Garden",
+            "type": "Recreational & Architectural Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "description": "A garden carved out of the rocks of Gonda Hill." },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["strolling", "photography", "picnics"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Sita Falls",
+            "type": "Natural & Eco-tourism Site",
+            "location": "Muri, Jharkhand",
+            "general_info": { "distance_from_ranchi": "45 kms" },
+            "visitor_info": { "best_time_to_visit": "Post-monsoon season", "activities": ["picnics", "photography"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Tribal Research Institute & Museum",
+            "type": "Cultural & Educational Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "established_year": "1954" },
+            "visitor_info": { "best_time_to_visit": "All year", "activities": ["exploring exhibits", "learning about tribal culture"], "fees_and_hours": { "entry": "₹10" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Kanke Dam",
+            "type": "Natural & Eco-tourism Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "distance_from_ranchi": "7 kms" },
+            "visitor_info": { "best_time_to_visit": "October to February", "activities": ["picnics", "boating", "strolling along the banks"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "McCluskieganj",
+            "type": "Historical & Eco-tourism Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "distance_from_ranchi": "60 kms" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["exploring colonial architecture", "nature walks", "birdwatching"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Panchghagh Falls",
+            "type": "Natural & Eco-tourism Site",
+            "location": "Khunti, Jharkhand",
+            "general_info": { "distance_from_ranchi": "55 kms" },
+            "visitor_info": { "best_time_to_visit": "Monsoon and post-monsoon season", "activities": ["picnics", "photography"], "fees_and_hours": { "entry": "₹10" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Canary Hill",
+            "type": "Natural & Recreational Site",
+            "location": "Hazaribagh, Jharkhand",
+            "general_info": { "distance_from_hazaribagh": "2 kms" },
+            "visitor_info": { "best_time_to_visit": "All year", "activities": ["trekking", "photography", "picnics"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Bhubneshwari Temple",
+            "type": "Religious & Cultural Site",
+            "location": "Jamshedpur, Jharkhand",
+            "general_info": { "description": "A temple dedicated to Goddess Bhubneshwari" },
+            "visitor_info": { "best_time_to_visit": "All year", "activities": ["worship", "exploring the temple"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Chandil Dam",
+            "type": "Natural & Eco-tourism Site",
+            "location": "Seraikela-Kharsawan, Jharkhand",
+            "general_info": { "distance_from_jamshedpur": "38 kms" },
+            "visitor_info": { "best_time_to_visit": "October to February", "activities": ["boating", "birdwatching", "picnics"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Rajrappa Falls",
+            "type": "Natural & Religious Site",
+            "location": "Ramgarh, Jharkhand",
+            "general_info": { "distance_from_ranchi": "60 kms" },
+            "visitor_info": { "best_time_to_visit": "October to February", "activities": ["picnics", "boating", "religious ceremonies"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Tilaiya Dam",
+            "type": "Eco-tourism & Engineering Site",
+            "location": "Koderma, Jharkhand",
+            "general_info": { "distance_from_koderma": "20 kms" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["boating", "picnics"], "fees_and_hours": { "entry": "₹10" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Ranchi Lake",
+            "type": "Natural & Recreational Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "distance_from_ranchi": "0 kms" },
+            "visitor_info": { "best_time_to_visit": "All year", "activities": ["boating", "strolling", "watching sunset"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Ghatshila",
+            "type": "Natural & Eco-tourism Site",
+            "location": "East Singhbhum, Jharkhand",
+            "general_info": { "distance_from_jamshedpur": "45 kms" },
+            "visitor_info": { "best_time_to_visit": "October to February", "activities": ["picnics", "nature walks", "boating"], "fees_and_hours": { "entry": "Varies by attraction" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Masanjore Dam",
+            "type": "Natural & Eco-tourism Site",
+            "location": "Dumka, Jharkhand",
+            "general_info": { "distance_from_dumka": "30 kms" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["boating", "picnics", "photography"], "fees_and_hours": { "entry": "Free" } },
+            "social_media_sentiment": { "overall_sentiment": "positive" }
+          },
+          {
+            "name": "Saranda Forest",
+            "type": "Forest & Wildlife Sanctuary",
+            "location": "West Singhbhum, Jharkhand",
+            "general_info": { "description": "The largest and densest sal forest in Asia" },
+            "visitor_info": { "best_time_to_visit": "October to March", "activities": ["trekking", "wildlife viewing", "nature walks"], "fees_and_hours": { "entry": "Varies" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          },
+          {
+            "name": "Ranchi Science Centre",
+            "type": "Educational & Cultural Site",
+            "location": "Ranchi, Jharkhand",
+            "general_info": { "description": "A modern science center with interactive exhibits." },
+            "visitor_info": { "best_time_to_visit": "All year", "activities": ["exploring interactive exhibits", "science demonstrations"], "fees_and_hours": { "entry": "₹15" } },
+            "social_media_sentiment": { "overall_sentiment": "highly positive" }
+          }
+        ];
+
+        // --- DOM Elements ---
+        const form = document.getElementById('predictionForm');
+        const destinationTypeSelect = document.getElementById('destinationType');
+        const visitTimeSelect = document.getElementById('visitTime');
+        const citySelect = document.getElementById('citySelect');
+        const priceRange = document.getElementById('priceRange');
+        const priceValue = document.getElementById('priceValue');
+        const budgetRange = document.getElementById('budgetRange');
+        const budgetValue = document.getElementById('budgetValue');
+        const activitiesContainer = document.getElementById('activitiesContainer');
+        const resultsSection = document.getElementById('resultsSection');
+        const resultsContainer = document.getElementById('resultsContainer');
+        const loadingSpinner = document.getElementById('loadingSpinner');
+        const noResultsDiv = document.getElementById('noResults');
+
+
+        // --- Functions ---
+        
+        /**
+         * Parses the fee information into a single numerical value.
+         * @param {string|object} fee The fee data from the JSON.
+         * @returns {number} The parsed price in INR. Returns 0 for "Free" or ambiguous values.
+         */
+        function parsePrice(fee) {
+            if (!fee) return 0;
+            if (typeof fee === 'string') {
+                if (fee.toLowerCase() === 'free') return 0;
+                const match = fee.match(/₹(\d+)/);
+                if (match) return parseInt(match[1], 10);
+            }
+            if (typeof fee === 'object' && fee.indians?.adult) {
+                 const match = fee.indians.adult.match(/₹(\d+)/);
+                 if (match) return parseInt(match[1], 10);
+            }
+            return 0; // Default for "Varies", "Included", etc.
+        }
+
+        /**
+         * Capitalizes the first letter of a string.
+         * @param {string} string The string to capitalize.
+         * @returns {string} The capitalized string.
+         */
+        function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+
+        /**
+         * Populates filter options (types, activities, cities, price) from the data.
+         */
+        function populateFilters() {
+            const destinationTypes = new Set();
+            const activities = new Set();
+            const cities = new Set();
+            let maxPrice = 0;
+
+            touristData.forEach(place => {
+                place.type.split('&').map(t => t.trim()).forEach(t => destinationTypes.add(t));
+                if (place.visitor_info.activities) {
+                    place.visitor_info.activities.forEach(activity => activities.add(activity));
+                }
+                const city = place.location.split(',')[0].trim();
+                cities.add(city);
+
+                const price = parsePrice(place.visitor_info.fees_and_hours?.entry);
+                if (price > maxPrice) {
+                    maxPrice = price;
+                }
+            });
+            
+            [...destinationTypes].sort().forEach(type => {
+                const option = document.createElement('option');
+                option.value = type;
+                option.textContent = type;
+                destinationTypeSelect.appendChild(option);
+            });
+            
+            [...cities].sort().forEach(city => {
+                const option = document.createElement('option');
+                option.value = city;
+                option.textContent = city;
+                citySelect.appendChild(option);
+            });
+
+            [...activities].sort().forEach(activity => {
+                const div = document.createElement('div');
+                div.className = 'flex items-center';
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = activity;
+                checkbox.name = 'activities';
+                checkbox.value = activity;
+                checkbox.className = 'form-checkbox h-5 w-5 text-blue-600 rounded focus:ring-blue-500';
+                
+                const label = document.createElement('label');
+                label.htmlFor = activity;
+                label.textContent = capitalizeFirstLetter(activity);
+                label.className = 'ml-2 text-gray-700';
+                
+                div.appendChild(checkbox);
+                div.appendChild(label);
+                activitiesContainer.appendChild(div);
+            });
+
+            // Setup price range slider
+            const roundedMaxPrice = Math.ceil(maxPrice / 10) * 10;
+            priceRange.max = roundedMaxPrice > 0 ? roundedMaxPrice : 200; // ensure max is not 0
+            priceRange.value = priceRange.max;
+            priceValue.textContent = `₹${priceRange.max}`;
+            priceRange.addEventListener('input', (e) => {
+                priceValue.textContent = `₹${e.target.value}`;
+            });
+            
+            // Setup budget range slider
+            budgetRange.value = 2000; // A reasonable default
+            budgetValue.textContent = `₹${budgetRange.value}`;
+            budgetRange.addEventListener('input', (e) => {
+                budgetValue.textContent = `₹${e.target.value}`;
+            });
+        }
+
+        /**
+         * Checks if a destination is suitable for a given month.
+         * @param {string} bestTime The best time string from data (e.g., "October to March").
+         * @param {string} selectedMonth The month selected by the user.
+         * @returns {boolean} True if the month is suitable, false otherwise.
+         */
+        function isTimeMatch(bestTime, selectedMonth) {
+            if (!selectedMonth || !bestTime || bestTime.toLowerCase().includes('all year')) return true;
+            
+            const months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+            const selectedMonthIndex = months.indexOf(selectedMonth.toLowerCase());
+
+            const rangeMatch = bestTime.match(/(\w+)\s+to\s+(\w+)/i);
+            if (rangeMatch) {
+                const startMonth = months.indexOf(rangeMatch[1].toLowerCase());
+                const endMonth = months.indexOf(rangeMatch[2].toLowerCase());
+                if (startMonth > endMonth) { // Wraps around the year
+                    return selectedMonthIndex >= startMonth || selectedMonthIndex <= endMonth;
+                } else {
+                    return selectedMonthIndex >= startMonth && selectedMonthIndex <= endMonth;
+                }
+            }
+            if (bestTime.toLowerCase().includes("winter")) return ["december", "january", "february"].includes(selectedMonth.toLowerCase());
+            if (bestTime.toLowerCase().includes("monsoon")) return ["june", "july", "august", "september"].includes(selectedMonth.toLowerCase());
+
+            return bestTime.toLowerCase().includes(selectedMonth.toLowerCase());
+        }
+
+        /**
+         * The prediction logic based on filtering and a scoring system.
+         * @param {object} preferences User's selected preferences.
+         * @returns {Array} A sorted list of recommended destinations.
+         */
+        function predictDestination(preferences) {
+            // 1. Hard Filters
+            let filteredData = touristData.filter(place => {
+                // City filter
+                if (preferences.city && !place.location.startsWith(preferences.city)) {
+                    return false;
+                }
+                // Price filter
+                const placePrice = parsePrice(place.visitor_info.fees_and_hours?.entry);
+                if (placePrice > preferences.maxPrice) {
+                    return false;
+                }
+                return true;
+            });
+
+            // 2. Scoring on the filtered data
+            const scoredDestinations = filteredData.map(place => {
+                let score = 0;
+                // Score based on soft preferences
+                if (preferences.destinationType && place.type.includes(preferences.destinationType)) score += 5;
+                const matchingActivities = place.visitor_info.activities?.filter(activity => preferences.activities.includes(activity)) || [];
+                score += matchingActivities.length * 2;
+                if (isTimeMatch(place.visitor_info.best_time_to_visit, preferences.visitTime)) score += 5;
+                if (place.social_media_sentiment.overall_sentiment === 'highly positive') score += 1;
+                
+                // Keep score only if it matches at least one soft preference (if any are set)
+                const hasSoftPreferences = preferences.destinationType || preferences.activities.length > 0 || preferences.visitTime;
+                if(hasSoftPreferences && score === 0) return { ...place, score: -1 };
+                
+                return { ...place, score };
+            }).filter(place => place.score !== -1);
+            
+            return scoredDestinations.sort((a, b) => b.score - a.score);
+        }
+
+        /**
+         * Creates an HTML card for a destination.
+         * @param {object} place The destination object.
+         * @returns {string} The HTML string for the card.
+         */
+        function createResultCard(place) {
+            const sentimentColor = place.social_media_sentiment.overall_sentiment === 'highly positive' ? 'bg-green-100 text-green-800' : 'bg-blue-100 text-blue-800';
+            const placeId = place.name.replace(/\s+/g, '-').toLowerCase(); // Create a safe ID
+            return `
+                <div class="card bg-white rounded-xl shadow-md overflow-hidden p-6">
+                    <h3 class="text-2xl font-bold text-gray-900">${place.name}</h3>
+                    <p class="text-gray-600 mt-1">${place.location}</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">${place.type}</span>
+                        <span class="inline-block ${sentimentColor} rounded-full px-3 py-1 text-sm font-semibold">${capitalizeFirstLetter(place.social_media_sentiment.overall_sentiment)} Sentiment</span>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="font-semibold text-gray-800">Best time to visit:</h4>
+                        <p class="text-gray-600">${place.visitor_info.best_time_to_visit || 'N/A'}</p>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="font-semibold text-gray-800">Activities:</h4>
+                        <div class="flex flex-wrap gap-2 mt-1">
+                            ${(place.visitor_info.activities || []).map(act => `<span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">${capitalizeFirstLetter(act)}</span>`).join('')}
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <button 
+                            class="generate-itinerary-btn w-full bg-green-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-4 focus:ring-green-300 transition duration-300"
+                            data-place-name="${place.name}" 
+                            data-place-location="${place.location}"
+                            data-target-id="${placeId}-itinerary">
+                            ✨ Generate AI Itinerary
+                        </button>
+                    </div>
+                    <div id="${placeId}-itinerary" class="itinerary-container mt-4 p-4 bg-gray-50 rounded-lg hidden">
+                        <div class="spinner-container text-center">
+                            <div class="spinner inline-block w-8 h-8 border-4 border-gray-200 rounded-full"></div>
+                            <p class="text-gray-600 mt-2">Crafting your perfect day...</p>
+                        </div>
+                        <div class="itinerary-content"></div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        /**
+         * Calls the Gemini API to generate an itinerary with exponential backoff.
+         * @param {string} prompt The prompt for the Gemini API.
+         * @param {number} maxRetries Maximum number of retries.
+         * @returns {Promise<string>} The generated text from the API.
+         */
+        async function callGeminiAPI(prompt, maxRetries = 3) {
+            const apiKey = ""; // Left empty as per instructions for Canvas environment
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+
+            const systemPrompt = "You are a helpful travel assistant. Your task is to create a travel itinerary. Your response MUST be an HTML fragment. Do NOT use markdown or code fences. Use `<h4>` for time-of-day headings (e.g., 'Morning'), `<h5>` for sub-headings like 'Cost Breakdown', and `<ul>` with `<li>` for lists. For example: '<h4>Morning</h4><ul><li>Visit the main temple.</li></ul><h5>Cost Breakdown</h5><ul><li>Entry: ₹50</li></ul>'";
+
+            const payload = {
+                contents: [{ parts: [{ text: prompt }] }],
+                systemInstruction: { parts: [{ text: systemPrompt }] },
+            };
+
+            let delay = 1000;
+            for (let i = 0; i < maxRetries; i++) {
+                try {
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+
+                    const result = await response.json();
+                    const candidate = result.candidates?.[0];
+                    if (candidate && candidate.content?.parts?.[0]?.text) {
+                        let text = candidate.content.parts[0].text;
+                        // Clean the response just in case the model includes markdown fences
+                        text = text.replace(/^```html\s*/, '').replace(/```$/, '');
+                        return text;
+                    } else {
+                        throw new Error("Invalid response structure from API.");
+                    }
+                } catch (error) {
+                    console.error(`Attempt ${i + 1} failed:`, error.message);
+                    if (i === maxRetries - 1) {
+                         return "<p class='text-red-500'>Sorry, we couldn't generate an itinerary at this moment. Please try again later.</p>";
+                    }
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                    delay *= 2; // Exponential backoff
+                }
+            }
+        }
+        
+        /**
+         * Handles the itinerary generation button click.
+         * @param {Event} event The click event.
+         */
+        async function handleItineraryGeneration(event) {
+            const button = event.target.closest('.generate-itinerary-btn');
+            if (!button) return;
+
+            const placeName = button.dataset.placeName;
+            const placeLocation = button.dataset.placeLocation;
+            const targetId = button.dataset.targetId;
+            const itineraryContainer = document.getElementById(targetId);
+            const spinner = itineraryContainer.querySelector('.spinner-container');
+            const contentDiv = itineraryContainer.querySelector('.itinerary-content');
+
+            // Show spinner and hide previous content
+            itineraryContainer.classList.remove('hidden');
+            spinner.classList.remove('hidden');
+            contentDiv.innerHTML = '';
+            button.disabled = true;
+            button.textContent = "Generating...";
+
+            // Get user's selected activities & budget
+            const selectedActivities = Array.from(document.querySelectorAll('input[name="activities"]:checked')).map(el => el.value);
+            const activitiesString = selectedActivities.length > 0 ? selectedActivities.join(', ') : 'general sightseeing';
+            const budget = budgetRange.value;
+
+            // Find nearby places
+            const primaryCity = placeLocation.split(',')[0].trim();
+            const nearbyPlaces = touristData.filter(p => p.location.startsWith(primaryCity) && p.name !== placeName);
+            let nearbyPlacesString = 'None available in the list.';
+            if (nearbyPlaces.length > 0) {
+                nearbyPlacesString = nearbyPlaces
+                    .slice(0, 5) // Limit to 5 to keep prompt reasonable
+                    .map(p => {
+                        const price = parsePrice(p.visitor_info.fees_and_hours?.entry);
+                        const priceString = price > 0 ? `(Approx. Entry: ₹${price})` : '(Entry: Free)';
+                        return `${p.name} ${priceString}`;
+                    }).join(', ');
+            }
+
+            // Construct the prompt
+            const prompt = `Create a fun, single-day travel itinerary for a tourist visiting ${placeName} in ${placeLocation}. 
+The tourist has a total day budget of ₹${budget}. Their interests include: ${activitiesString}.
+
+Here are some other places in the same city: ${nearbyPlacesString}.
+
+Please generate a detailed itinerary that includes ${placeName} and potentially 1-2 other nearby places from the list, but only if it fits the schedule and budget. The plan must be realistic for a single day. 
+Provide a simple, estimated cost breakdown (for entry fees, food, local travel) to show how the plan stays within the ₹${budget} budget.`;
+
+            // Call Gemini API
+            const itineraryHtml = await callGeminiAPI(prompt);
+            
+            // Display result
+            contentDiv.innerHTML = itineraryHtml;
+            spinner.classList.add('hidden');
+            button.disabled = false;
+            button.textContent = "✨ Regenerate AI Itinerary";
+        }
+
+        /**
+         * Displays the prediction results on the page.
+         * @param {Array} results The array of recommended destinations.
+         */
+        function displayResults(results) {
+            resultsContainer.innerHTML = '';
+            
+            if (results.length === 0) {
+                 noResultsDiv.classList.remove('hidden');
+                 const generalRecommendations = touristData
+                    .filter(p => p.social_media_sentiment.overall_sentiment === 'highly positive')
+                    .slice(0, 3);
+                 generalRecommendations.forEach(place => {
+                    resultsContainer.innerHTML += createResultCard(place);
+                 });
+            } else {
+                 noResultsDiv.classList.add('hidden');
+                 const topResults = results.slice(0, 3);
+                 topResults.forEach(place => {
+                    resultsContainer.innerHTML += createResultCard(place);
+                 });
+            }
+            
+            loadingSpinner.classList.add('hidden');
+            resultsContainer.classList.remove('hidden');
+        }
+
+        // --- Event Listeners ---
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            resultsSection.classList.remove('hidden');
+            loadingSpinner.classList.remove('hidden');
+            resultsContainer.classList.add('hidden');
+            noResultsDiv.classList.add('hidden');
+            resultsSection.scrollIntoView({ behavior: 'smooth' });
+
+            const selectedActivities = Array.from(document.querySelectorAll('input[name="activities"]:checked')).map(el => el.value);
+            const preferences = {
+                destinationType: destinationTypeSelect.value,
+                visitTime: visitTimeSelect.value,
+                activities: selectedActivities,
+                city: citySelect.value,
+                maxPrice: parseInt(priceRange.value, 10),
+                budget: parseInt(budgetRange.value, 10)
+            };
+
+            const recommendations = predictDestination(preferences);
+            
+            setTimeout(() => {
+                displayResults(recommendations);
+            }, 1000); 
+        });
+
+        resultsContainer.addEventListener('click', handleItineraryGeneration);
+
+
+        // --- Initial Load ---
+        document.addEventListener('DOMContentLoaded', () => {
+            populateFilters();
+        });
+    </script>
+</body>
+</html>
+
