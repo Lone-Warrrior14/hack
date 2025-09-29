@@ -1,0 +1,120 @@
+{
+  "garhwa_tourist_spots": [
+    {
+      "name": "Banshankari Devi Temple",
+      "location": "Garhwa, Jharkhand",
+      "rating": 4.5,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Dedicated to goddess Banshankari Devi",
+        "Beautiful temple architecture",
+        "Picturesque natural surroundings",
+        "Peaceful retreat for spiritual seekers"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Pilgrimage",
+        "Cultural tourism"
+      ],
+      "budget": "Low (Free entry, minimal travel costs)",
+      "ideal_group_size": "Devotees, families, solo travelers"
+    },
+    {
+      "name": "Kharagdiha Fort",
+      "location": "Garhwa, Jharkhand",
+      "rating": 4.4,
+      "type": "Historical",
+      "entry_fee": "Free",
+      "timings": "Daytime visits recommended",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Ancient fort with rich history",
+        "Captivating views of surrounding landscape",
+        "Rugged walls and old structures",
+        "Ideal for history lovers"
+      ],
+      "criticisms": [
+        "Limited maintenance of old structures"
+      ],
+      "interest": [
+        "Heritage exploration",
+        "History lovers",
+        "Photography"
+      ],
+      "budget": "Low (Free entry, transport costs only)",
+      "ideal_group_size": "Friends, students, heritage enthusiasts"
+    },
+    {
+      "name": "Jharkhandi Dham",
+      "location": "Garhwa, Jharkhand",
+      "rating": 4.5,
+      "type": "Religious/Spiritual",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Festive seasons and winter months",
+      "highlights": [
+        "Renowned spiritual destination",
+        "Tranquil and serene environment",
+        "Blend of cultural heritage and natural beauty"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Pilgrimage",
+        "Cultural heritage"
+      ],
+      "budget": "Low (Free entry, optional offerings)",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    },
+    {
+      "name": "Bansagar Dam",
+      "location": "Garhwa, Jharkhand",
+      "rating": 4.4,
+      "type": "Nature/Engineering",
+      "entry_fee": "Free",
+      "timings": "Open during daytime",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Important irrigation reservoir",
+        "Scenic water body amidst greenery",
+        "Supports agriculture in the region",
+        "Great spot for outdoor relaxation"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Nature photography",
+        "Engineering marvels",
+        "Picnics and outdoor activities"
+      ],
+      "budget": "Low to moderate (transportation and food)",
+      "ideal_group_size": "Families, nature lovers, engineering students"
+    },
+    {
+      "name": "Ghora Dol",
+      "location": "Garhwa, Jharkhand",
+      "rating": 4.6,
+      "type": "Nature/Cultural",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Hidden natural gem",
+        "Lush green surroundings",
+        "Tranquil hills and valleys",
+        "Great for exploration and photography"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Nature exploration",
+        "Adventure activities",
+        "Cultural sightseeing"
+      ],
+      "budget": "Low (Free entry, travel expenses only)",
+      "ideal_group_size": "Friends, adventure enthusiasts, photographers"
+    }
+  ]
+}
