@@ -1,0 +1,119 @@
+{
+  "east_singhbhum_tourist_spots": [
+    {
+      "name": "Jubilee Park",
+      "location": "Jamshedpur, Jharkhand",
+      "rating": 4.5,
+      "type": "Park/Recreation",
+      "entry_fee": "Free",
+      "timings": "Open daily",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Gigantic urban park",
+        "Popular for jogging and cycling",
+        "Recreation centre and fountains",
+        "Zoo inside the park",
+        "Ideal for family outings and picnics"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Outdoor activities",
+        "Picnics",
+        "Relaxing with friends and family"
+      ],
+      "budget": "Low (Free entry, optional food and rides)",
+      "ideal_group_size": "Families, groups of friends, joggers, cyclists"
+    },
+    {
+      "name": "Bhuvaneshwari Temple",
+      "location": "Telco, Jamshedpur, Jharkhand",
+      "rating": 4.3,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Peaceful temple environment",
+        "Well-maintained temple premises"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Cultural tourism"
+      ],
+      "budget": "Low (Free entry, minimal travel costs)",
+      "ideal_group_size": "Devotees, families, solo travelers"
+    },
+    {
+      "name": "Russi Modi Centre of Excellence",
+      "location": "Jamshedpur, Jharkhand",
+      "rating": 4.4,
+      "type": "Cultural/Corporate Landmark",
+      "entry_fee": "Free",
+      "timings": "Open during office hours",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Tribute to Russi Modi, legendary industrialist",
+        "Symbol of corporate excellence",
+        "Associated with Tata Group",
+        "Architectural landmark in Jamshedpur"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Corporate history",
+        "Architecture",
+        "Cultural exploration"
+      ],
+      "budget": "Low (Free entry, optional guide costs)",
+      "ideal_group_size": "Students, corporate visitors, history enthusiasts"
+    },
+    {
+      "name": "Dalma Wildlife Sanctuary",
+      "location": "Near Jamshedpur, Jharkhand",
+      "rating": 4.5,
+      "type": "Nature/Wildlife",
+      "entry_fee": "Budget-friendly",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Spread over 193 sq. km. forest area",
+        "Rich biodiversity",
+        "Named after goddess Dalma Mai",
+        "River Swarnrekha flows nearby",
+        "Popular for trekking and nature trails"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Wildlife photography",
+        "Nature walks",
+        "Trekking",
+        "Bird watching"
+      ],
+      "budget": "Moderate (travel, food, entry fee)",
+      "ideal_group_size": "Friends, families, wildlife enthusiasts, trekking groups"
+    },
+    {
+      "name": "Tata Steel Zoological Park",
+      "location": "Marine Drive Road, near XLRI, Jubilee Park, Jamshedpur, Jharkhand",
+      "rating": 4.3,
+      "type": "Zoo/Park",
+      "entry_fee": "Budget-friendly",
+      "timings": "9:00 AM – 5:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Zoo and botanical garden",
+        "Located near Jubilee Park",
+        "Popular family attraction",
+        "Easy access from Tatanagar Junction (0.78 km)"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Wildlife viewing",
+        "Family picnics",
+        "Educational trips"
+      ],
+      "budget": "Moderate (entry fee, food, travel)",
+      "ideal_group_size": "Families, school groups, tourists"
+    }
+  ]
+}
