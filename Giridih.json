@@ -1,0 +1,124 @@
+{
+  "giridih_tourist_spots": [
+    {
+      "name": "Parasnath Hill",
+      "location": "Giridih, Jharkhand",
+      "rating": 4.7,
+      "type": "Nature/Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Highest peak in Jharkhand",
+        "Most sacred Jain pilgrimage site",
+        "Temple dedicated to Lord Parasnath",
+        "Ideal for trekking and cultural exploration"
+      ],
+      "criticisms": [
+        "Trek can be challenging for elderly visitors"
+      ],
+      "interest": [
+        "Trekking",
+        "Pilgrimage",
+        "Jain culture"
+      ],
+      "budget": "Moderate (travel, food, optional guide)",
+      "ideal_group_size": "Pilgrims, trekking groups, cultural tourists"
+    },
+    {
+      "name": "Usri Falls",
+      "location": "Giridih, Jharkhand",
+      "rating": 4.5,
+      "type": "Nature/Waterfall",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "Monsoon and winter months",
+      "highlights": [
+        "Scenic waterfall surrounded by greenery",
+        "Popular picnic spot",
+        "Great for photography and relaxation"
+      ],
+      "criticisms": [
+        "Slippery rocks during monsoon"
+      ],
+      "interest": [
+        "Picnics",
+        "Nature walks",
+        "Photography"
+      ],
+      "budget": "Low (Free entry, food and travel costs)",
+      "ideal_group_size": "Families, friends, nature enthusiasts"
+    },
+    {
+      "name": "Rajrappa Temple",
+      "location": "Near River Bhairavi, Giridih, Jharkhand",
+      "rating": 4.6,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 9:00 PM",
+      "best_time_to_visit": "Festive seasons and winter",
+      "highlights": [
+        "Dedicated to Goddess Chhinamastika",
+        "Situated near the Bhairavi river",
+        "Known for unique rituals and traditions"
+      ],
+      "criticisms": [
+        "Can get very crowded during festivals"
+      ],
+      "interest": [
+        "Spiritual devotion",
+        "Cultural tourism",
+        "Religious rituals"
+      ],
+      "budget": "Low (Free entry, offerings optional)",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    },
+    {
+      "name": "Madhuban Dam",
+      "location": "Giridih, Jharkhand",
+      "rating": 4.4,
+      "type": "Nature/Waterbody",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Beautiful scenic dam site",
+        "Excellent for bird watching",
+        "Fishing activities available",
+        "Peaceful picnic environment"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Bird watching",
+        "Fishing",
+        "Nature outings"
+      ],
+      "budget": "Low to moderate (transportation and food)",
+      "ideal_group_size": "Families, bird watchers, nature lovers"
+    },
+    {
+      "name": "Dhanbad",
+      "location": "Dhanbad, Jharkhand (near Giridih)",
+      "rating": 4.3,
+      "type": "City/Industrial Tourism",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Famous for coal mining industry",
+        "Urban city with multiple attractions",
+        "Known as the Coal Capital of India"
+      ],
+      "criticisms": [
+        "Pollution and traffic in the city"
+      ],
+      "interest": [
+        "Industrial tourism",
+        "City exploration",
+        "Educational trips"
+      ],
+      "budget": "Moderate (food, stay, travel)",
+      "ideal_group_size": "Students, researchers, city tourists"
+    }
+  ]
+}
