@@ -1,0 +1,124 @@
+{
+  "gumla_tourist_spots": [
+    {
+      "name": "Angrabadi Temple",
+      "location": "Gumla, Jharkhand",
+      "rating": 4.5,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Located on a scenic hilltop",
+        "Dedicated to Lord Shiva",
+        "Popular Hindu pilgrimage site",
+        "Surrounded by natural beauty"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Pilgrimage",
+        "Nature exploration"
+      ],
+      "budget": "Low (Free entry, offerings optional)",
+      "ideal_group_size": "Devotees, families, solo travelers"
+    },
+    {
+      "name": "Palkot Wildlife Sanctuary",
+      "location": "Near Gumla, Jharkhand",
+      "rating": 4.6,
+      "type": "Nature/Wildlife",
+      "entry_fee": "Budget-friendly",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Covers 199 sq. km.",
+        "Home to tigers, leopards, elephants, and deer",
+        "Rich birdlife",
+        "Great spot for wildlife enthusiasts"
+      ],
+      "criticisms": [
+        "Accessibility may be difficult during rains"
+      ],
+      "interest": [
+        "Wildlife photography",
+        "Safari experience",
+        "Bird watching"
+      ],
+      "budget": "Moderate (travel, entry, food)",
+      "ideal_group_size": "Wildlife lovers, families, trekking groups"
+    },
+    {
+      "name": "Chhinnamasta Temple",
+      "location": "Rajrappa, ~45 km from Gumla, Jharkhand",
+      "rating": 4.7,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 9:00 PM",
+      "best_time_to_visit": "Festivals and winter season",
+      "highlights": [
+        "Dedicated to Goddess Chhinnamasta",
+        "Renowned temple with unique rituals",
+        "Stunning traditional architecture"
+      ],
+      "criticisms": [
+        "Heavy crowd during festivals"
+      ],
+      "interest": [
+        "Pilgrimage",
+        "Cultural tourism",
+        "Temple architecture"
+      ],
+      "budget": "Low (Free entry, optional offerings)",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    },
+    {
+      "name": "Suga Dam",
+      "location": "On Suga River, Gumla, Jharkhand",
+      "rating": 4.4,
+      "type": "Nature/Engineering",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Built in the 1960s",
+        "Engineering marvel on Suga River",
+        "Surrounded by lush greenery",
+        "Popular picnic destination"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Nature photography",
+        "Engineering structures",
+        "Picnics"
+      ],
+      "budget": "Low to moderate (travel and food)",
+      "ideal_group_size": "Families, students, nature lovers"
+    },
+    {
+      "name": "Birsa Zoological Park",
+      "location": "Gumla, Jharkhand",
+      "rating": 4.5,
+      "type": "Zoo/Nature",
+      "entry_fee": "Budget-friendly",
+      "timings": "9:00 AM – 5:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Covers 104 hectares",
+        "Home to tigers, lions, elephants, and birds",
+        "Includes a boating lake",
+        "Popular for family trips"
+      ],
+      "criticisms": [
+        "Limited food stalls inside park"
+      ],
+      "interest": [
+        "Wildlife exploration",
+        "Family outings",
+        "Boating"
+      ],
+      "budget": "Moderate (entry fee, food, travel)",
+      "ideal_group_size": "Families, school groups, tourists"
+    }
+  ]
+}
