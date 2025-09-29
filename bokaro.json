@@ -1,0 +1,105 @@
+
+{
+  "bokaro_tourist_spots": [
+    {
+      "name": "Shree Ayyappa Temple",
+      "location": "Bokaro Steel City, Jharkhand",
+      "rating": 4.6,
+      "established": 1983,
+      "highlights": [
+        "Peaceful and spiritual atmosphere",
+        "Clean marble architecture",
+        "Ideal for prayer and meditation",
+        "Excellent management",
+        "Rarely overcrowded"
+      ],
+      "criticisms": [
+        "Occasional parking difficulties during festivals"
+      ],
+      "entry_fee": "Free",
+      "timings": "Open daily",
+      "best_time_to_visit": "Winter months",
+      "type": "Religious"
+    },
+    {
+      "name": "City Park",
+      "location": "Bokaro Steel City, Jharkhand",
+      "rating": 4.4,
+      "highlights": [
+        "Lush green garden",
+        "Artificial lake with Japanese-styled islands",
+        "Toy train ride",
+        "Venue for festivals like Basant Mela and Chhatth Puja"
+      ],
+      "criticisms": [
+        "Poor lighting after sunset"
+      ],
+      "entry_fee": "Free",
+      "timings": "9:30 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "type": "Park"
+    },
+    {
+      "name": "Garga Dam",
+      "location": "12 km from Bokaro",
+      "rating": 4.5,
+      "highlights": [
+        "Scenic beauty",
+        "Aquatic habitat",
+        "Perfect for picnics and outings",
+        "Damodar River nearby"
+      ],
+      "criticisms": [],
+      "entry_fee": "NA",
+      "timings": "NA",
+      "best_time_to_visit": "Throughout the year",
+      "type": "Nature"
+    },
+    {
+      "name": "Jagannath Temple",
+      "location": "Bokaro Steel City, Jharkhand",
+      "rating": 4.3,
+      "highlights": [
+        "Replica of Jagannath Puri",
+        "Peaceful and tidy surroundings",
+        "Grand Rath Yatra festival"
+      ],
+      "criticisms": [
+        "Temple pond could be better maintained"
+      ],
+      "entry_fee": "NA",
+      "timings": "6:00 AM – 1:00 PM, 3:30 PM – 9:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "type": "Religious"
+    },
+    {
+      "name": "Parasnath Hills (Shikharji)",
+      "location": "Giridih district, near Bokaro",
+      "rating": 4.6,
+      "highlights": [
+        "Highest peak in Bokaro",
+        "Important Jain pilgrimage site",
+        "Ideal for trekking and hiking",
+        "Surrounded by lush greenery"
+      ],
+      "criticisms": [],
+      "entry_fee": "Free",
+      "timings": "10:00 AM – 10:00 PM",
+      "best_time_to_visit": "October to March",
+      "type": "Nature/Religious"
+    }
+  ],
+  "overall_summary": {
+    "average_rating": "4.2–4.6",
+    "themes": [
+      "Relaxing",
+      "Spiritual",
+      "Nature-focused"
+    ],
+    "common_issues": [
+      "Maintenance during peak times",
+      "Crowds during festivals"
+    ],
+    "cost": "Free or low-cost"
+  }
+}
