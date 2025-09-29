@@ -1,0 +1,206 @@
+{
+  "ranchi_tourist_spots": [
+    {
+      "name": "Dassam Falls",
+      "location": "Near Taimara village, Ranchi, Jharkhand",
+      "rating": 4.5,
+      "established": "Natural formation",
+      "type": "Waterfall",
+      "entry_fee": "Free",
+      "timings": "Daytime only",
+      "best_time_to_visit": "Oct – Mar",
+      "highlights": [
+        "Magnificent 144 ft waterfall",
+        "Surrounded by dense forests",
+        "Popular picnic spot",
+        "Ideal for photography"
+      ],
+      "criticisms": [
+        "Strong currents, unsafe for swimming",
+        "Can get crowded on weekends"
+      ],
+      "interest": ["Nature exploration", "Picnics", "Photography"],
+      "budget": "Low (Travel + food costs only)",
+      "ideal_group_size": "Families, students, nature lovers"
+    },
+    {
+      "name": "Rock Garden & Kanke Dam",
+      "location": "Ranchi city outskirts, Jharkhand",
+      "rating": 4.3,
+      "established": 1983,
+      "type": "Garden & Lake",
+      "entry_fee": "₹20 approx",
+      "timings": "8 AM – 6 PM",
+      "best_time_to_visit": "Evenings, winter months",
+      "highlights": [
+        "Sculptures on rocks",
+        "Beautiful sunset view",
+        "Boating at Kanke Dam"
+      ],
+      "criticisms": ["Limited maintenance in some areas"],
+      "interest": ["Family outings", "Couple visits", "Boating"],
+      "budget": "Low – Mid (Entry + food + boating)",
+      "ideal_group_size": "Families, couples, groups"
+    }
+  ],
+
+  "lohardaga_tourist_spots": [
+    {
+      "name": "Lazarus Church",
+      "location": "Lohardaga town, Jharkhand",
+      "rating": 4.2,
+      "established": 1900,
+      "type": "Religious / Heritage",
+      "entry_fee": "Free",
+      "timings": "Morning – Evening",
+      "best_time_to_visit": "Winter season",
+      "highlights": [
+        "Historic church with colonial architecture",
+        "Peaceful prayer ambience"
+      ],
+      "criticisms": ["Limited facilities nearby"],
+      "interest": ["Religious visits", "Heritage appreciation"],
+      "budget": "Low",
+      "ideal_group_size": "Families, pilgrims, solo travelers"
+    },
+    {
+      "name": "Navratangarh Fort",
+      "location": "Lohardaga district, Jharkhand",
+      "rating": 4.0,
+      "established": "17th century",
+      "type": "Fort / Historical",
+      "entry_fee": "Free",
+      "timings": "Daytime",
+      "best_time_to_visit": "Winter & post-monsoon",
+      "highlights": [
+        "Ruins of Nagvanshi dynasty fort",
+        "Scenic backdrop",
+        "Historic significance"
+      ],
+      "criticisms": ["In ruins, not well maintained"],
+      "interest": ["History", "Photography", "Heritage tourism"],
+      "budget": "Low",
+      "ideal_group_size": "History enthusiasts, students, solo travelers"
+    }
+  ],
+
+  "pakur_tourist_spots": [
+    {
+      "name": "Martello Tower",
+      "location": "Pakur town, Jharkhand",
+      "rating": 4.1,
+      "established": "British era",
+      "type": "Historical",
+      "entry_fee": "Free",
+      "timings": "Morning – Evening",
+      "best_time_to_visit": "Oct – Mar",
+      "highlights": [
+        "British colonial watchtower",
+        "360-degree surrounding view"
+      ],
+      "criticisms": ["Limited tourist infrastructure"],
+      "interest": ["History", "Architecture"],
+      "budget": "Low",
+      "ideal_group_size": "Students, families, heritage lovers"
+    },
+    {
+      "name": "Shiv Sheetla Mandir",
+      "location": "Pakur district, Jharkhand",
+      "rating": 4.3,
+      "established": "Ancient",
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6 AM – 8 PM",
+      "best_time_to_visit": "Festivals (Maha Shivratri, Navratri)",
+      "highlights": [
+        "Popular pilgrimage site",
+        "Cultural hub during festivals"
+      ],
+      "criticisms": ["Crowded during peak festival days"],
+      "interest": ["Pilgrimage", "Festivals"],
+      "budget": "Low",
+      "ideal_group_size": "Families, devotees"
+    }
+  ],
+
+  "palamu_tourist_spots": [
+    {
+      "name": "Palamu Fort",
+      "location": "Near Medininagar, Jharkhand",
+      "rating": 4.2,
+      "established": "17th century",
+      "type": "Historical / Fort",
+      "entry_fee": "Free",
+      "timings": "Daytime only",
+      "best_time_to_visit": "Oct – Feb",
+      "highlights": [
+        "Two forts built by Chero kings",
+        "Scenic ruins in forested surroundings"
+      ],
+      "criticisms": ["Remote, limited access", "Not fully maintained"],
+      "interest": ["Heritage", "Photography", "History tours"],
+      "budget": "Low",
+      "ideal_group_size": "Students, explorers, families"
+    },
+    {
+      "name": "Betla National Park",
+      "location": "Palamu district, Jharkhand",
+      "rating": 4.4,
+      "established": 1974,
+      "type": "Wildlife Sanctuary",
+      "entry_fee": "₹50–200",
+      "timings": "6 AM – 5 PM",
+      "best_time_to_visit": "Nov – Mar",
+      "highlights": [
+        "Rich wildlife: tigers, elephants, bison",
+        "Jeep safari experience",
+        "Scenic forest landscapes"
+      ],
+      "criticisms": ["Wildlife spotting not guaranteed"],
+      "interest": ["Wildlife", "Adventure", "Nature trails"],
+      "budget": "Mid",
+      "ideal_group_size": "Families, adventure groups, couples"
+    }
+  ],
+
+  "ramgarh_tourist_spots": [
+    {
+      "name": "Rajrappa Temple",
+      "location": "Rajrappa, Ramgarh district, Jharkhand",
+      "rating": 4.5,
+      "established": "Ancient",
+      "type": "Religious / Temple",
+      "entry_fee": "Free",
+      "timings": "5 AM – 8 PM",
+      "best_time_to_visit": "Festivals (Chhath, Navratri)",
+      "highlights": [
+        "Famous Chhinnamastika Temple",
+        "Scenic river confluence",
+        "Major pilgrimage hub"
+      ],
+      "criticisms": ["Overcrowded during festivals"],
+      "interest": ["Pilgrimage", "Festivals", "Spiritual tourism"],
+      "budget": "Low",
+      "ideal_group_size": "Families, pilgrims"
+    },
+    {
+      "name": "Patratu Valley",
+      "location": "Near Ramgarh, Jharkhand",
+      "rating": 4.6,
+      "established": "Natural attraction",
+      "type": "Valley / Scenic Drive",
+      "entry_fee": "Free",
+      "timings": "All day",
+      "best_time_to_visit": "Oct – Mar",
+      "highlights": [
+        "Winding ghat roads",
+        "Breathtaking valley views",
+        "Perfect for long drives and photography"
+      ],
+      "criticisms": ["Roads can be risky in monsoon"],
+      "interest": ["Road trips", "Photography", "Nature lovers"],
+      "budget": "Low (Fuel + food)",
+      "ideal_group_size": "Friends, bikers, couples"
+    }
+  ]
+}
