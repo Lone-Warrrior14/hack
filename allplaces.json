@@ -1,0 +1,2014 @@
+{
+  "hazaribagh": {
+    "tourist_spots": [
+      {
+        "name": "Hazaribagh Wildlife Sanctuary",
+        "location": "Near Hazaribagh town, Jharkhand",
+        "rating": 4.4,
+        "established": null,
+        "type": "Wildlife / Nature",
+        "entry_fee": "Small conservation/entry fee (varies)",
+        "timings": "Early morning to late afternoon (seasonal)",
+        "best_time_to_visit": "Oct–Mar (winter), post-monsoon for greenery",
+        "highlights": [
+          "Dense mixed deciduous forest",
+          "Wildlife sightings (deer, wild boar, birds)",
+          "Nature walks & birdwatching"
+        ],
+        "criticisms": [
+          "Limited infrastructure in parts",
+          "Best wildlife sightings require early starts"
+        ],
+        "interest": ["Wildlife photography", "Birdwatching", "Nature walks"],
+        "budget": "Low–Mid (entry fee + transport)",
+        "ideal_group_size": "Small groups, families, solo nature travellers"
+      },
+      {
+        "name": "Charowa (Charwa) Dam",
+        "location": "Charowa area, near Hazaribagh",
+        "rating": 4.2,
+        "established": null,
+        "type": "Dam / Scenic spot",
+        "entry_fee": "Free (donation/parking charges possible)",
+        "timings": "Open all day (best at sunrise/sunset)",
+        "best_time_to_visit": "Oct–Mar; monsoon for lush scenery",
+        "highlights": [
+          "Panoramic hill-and-lake views",
+          "Photography and quiet picnic spots"
+        ],
+        "criticisms": [
+          "Limited facility/shops nearby",
+          "Can be crowded on weekends"
+        ],
+        "interest": ["Photography", "Picnics", "Relaxation"],
+        "budget": "Low",
+        "ideal_group_size": "Families and couples"
+      },
+      {
+        "name": "Surajkund Hot Spring",
+        "location": "Barkatha area (near Hazaribagh)",
+        "rating": 4.0,
+        "established": null,
+        "type": "Natural Hot Spring",
+        "entry_fee": "Free / small local charges",
+        "timings": "Open daily (visit daytime recommended)",
+        "best_time_to_visit": "Winter (for warm spring baths) and post-monsoon",
+        "highlights": [
+          "Natural sulphur hot spring",
+          "Unique local natural feature"
+        ],
+        "criticisms": [
+          "Basic access & facilities",
+          "Water sometimes considered unhygienic for bathing"
+        ],
+        "interest": ["Local natural experience", "Curiosity / wellness"],
+        "budget": "Low",
+        "ideal_group_size": "Small adventurous groups, solo travellers"
+      },
+      {
+        "name": "Hazaribagh Lake (Jheel)",
+        "location": "Hazaribagh town centre",
+        "rating": 4.1,
+        "established": null,
+        "type": "Urban Lake / Leisure",
+        "entry_fee": "Free (boating may have charge)",
+        "timings": "Morning & evening best",
+        "best_time_to_visit": "Oct–Mar",
+        "highlights": [
+          "Evening walks",
+          "Possible boating",
+          "Local gathering spot"
+        ],
+        "criticisms": [
+          "Can be crowded in evenings/weekends",
+          "Maintenance varies"
+        ],
+        "interest": ["Leisure strolls", "Photography"],
+        "budget": "Low",
+        "ideal_group_size": "Families, couples"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Raj Restaurant",
+        "location": "Near Govt Bus Stand, Hazaribagh",
+        "cuisine": "Veg & Non-Veg (North Indian)",
+        "rating": 4.0,
+        "price_range": "₹₹ (budget to mid)",
+        "timings": "Lunch & Dinner",
+        "highlights": ["Reliable local favourites", "Good for group meals"],
+        "criticisms": ["Basic ambience"],
+        "ideal_for": "Families, travellers seeking local food"
+      },
+      {
+        "name": "Hotel Nandgaon & Highway Delight (Veg)",
+        "location": "On NH33, Nayakhap (Hazaribagh area)",
+        "cuisine": "Pure Veg (thali & North Indian)",
+        "rating": 4.2,
+        "price_range": "₹ (budget)",
+        "timings": "All day (hotel timings)",
+        "highlights": [
+          "Pure-veg menu",
+          "Good for groups preferring vegetarian only"
+        ],
+        "criticisms": ["Limited evening fast-food-style options"],
+        "ideal_for": "Veg travellers, families"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Basic Budget Hotel (example)",
+        "location": "Hazaribagh town",
+        "rating": 3.2,
+        "class": "Low",
+        "price_range": "₹700–1,200/night",
+        "amenities": [
+          "Fan/AC rooms (varies)",
+          "Basic washroom",
+          "Local breakfast available"
+        ],
+        "ideal_for": "Budget travellers, backpackers"
+      },
+      {
+        "name": "Mid-range Hotel (example)",
+        "location": "Central Hazaribagh",
+        "rating": 4.0,
+        "class": "Mid",
+        "price_range": "₹1,500–3,000/night",
+        "amenities": ["AC rooms", "Attached bathroom", "On-site restaurant"],
+        "ideal_for": "Families, couples, business travellers"
+      },
+      {
+        "name": "Premium Resort / Hotel (example)",
+        "location": "Near scenic outskirts / Charowa",
+        "rating": 4.4,
+        "class": "High",
+        "price_range": "₹3,500+/night",
+        "amenities": [
+          "Comfort rooms",
+          "Better views",
+          "Possibly banquet/guide services"
+        ],
+        "ideal_for": "Comfort travellers, small luxury groups"
+      }
+    ]
+  },
+  "jamtara": {
+    "tourist_spots": [
+      {
+        "name": "Malancha Dam",
+        "location": "Malancha area, Jamtara district",
+        "rating": 4.0,
+        "established": null,
+        "type": "Dam / Picnic spot",
+        "entry_fee": "Free (small parking charge possible)",
+        "timings": "Daytime (sunrise/sunset best)",
+        "best_time_to_visit": "Oct–Mar; spring scenic",
+        "highlights": [
+          "Tranquil waters",
+          "Picnic and birdwatching opportunities"
+        ],
+        "criticisms": [
+          "Very limited facilities",
+          "Basic access roads in places"
+        ],
+        "interest": ["Picnics", "Photography", "Relaxation"],
+        "budget": "Low",
+        "ideal_group_size": "Families, small friend groups"
+      },
+      {
+        "name": "Ladhna Dam",
+        "location": "Near Jamtara town",
+        "rating": 3.9,
+        "established": null,
+        "type": "Reservoir / Scenic",
+        "entry_fee": "Free / small local charge",
+        "timings": "Daytime",
+        "best_time_to_visit": "Oct–Mar",
+        "highlights": ["Quiet reservoir", "Local birdlife"],
+        "criticisms": ["Basic amenities", "Limited food options nearby"],
+        "interest": ["Birdwatching", "Relaxed outings"],
+        "budget": "Low",
+        "ideal_group_size": "Couples, small groups"
+      },
+      {
+        "name": "Karamdaha Temple & Waterfall",
+        "location": "Karamdaha area, Jamtara",
+        "rating": 4.1,
+        "established": null,
+        "type": "Religious / Natural",
+        "entry_fee": "Free",
+        "timings": "Temple hours (daytime best for waterfall)",
+        "best_time_to_visit": "Monsoon to post-monsoon; Oct–Mar for comfortable weather",
+        "highlights": ["Small waterfall", "Local temple atmosphere"],
+        "criticisms": ["Access may be rough in bad weather"],
+        "interest": ["Spiritual visits", "Short nature walks"],
+        "budget": "Low",
+        "ideal_group_size": "Families, pilgrims"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Birbhum Hotel",
+        "location": "Jamtara town",
+        "cuisine": "Veg & Non-Veg (local favourites)",
+        "rating": 4.1,
+        "price_range": "₹ (budget)",
+        "timings": "Lunch & Dinner",
+        "highlights": ["Known for mutton rice and local non-veg dishes"],
+        "criticisms": ["Basic ambience"],
+        "ideal_for": "Non-veg lovers, casual diners"
+      },
+      {
+        "name": "Saheb Hotel & Restaurant",
+        "location": "Market Road, Jamtara",
+        "cuisine": "Veg & Non-Veg",
+        "rating": 4.0,
+        "price_range": "₹ (budget)",
+        "timings": "All day",
+        "highlights": ["Family-friendly", "Reliable veg options"],
+        "criticisms": ["Simple décor"],
+        "ideal_for": "Families, budget travellers"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Hotel Morning Star",
+        "location": "Opposite Bus Stand, Jamtara",
+        "rating": 3.4,
+        "class": "Low",
+        "price_range": "₹500–1,000/night",
+        "amenities": ["Basic rooms", "Proximity to transport"],
+        "ideal_for": "Budget travellers, transit stays"
+      },
+      {
+        "name": "Ekta Shri Hotel",
+        "location": "Subhash Chowk, Jamtara",
+        "rating": 3.8,
+        "class": "Mid",
+        "price_range": "₹1,000–2,000/night",
+        "amenities": ["AC rooms available", "In-house dining"],
+        "ideal_for": "Families, mid-budget travellers"
+      },
+      {
+        "name": "Jamtara Farmstay",
+        "location": "Amarwara / outskirts",
+        "rating": 4.3,
+        "class": "High (countryside comfort)",
+        "price_range": "₹2,000+/night",
+        "amenities": [
+          "Meals included (local style)",
+          "Nature setting",
+          "Limited rooms"
+        ],
+        "ideal_for": "Couples, small groups, nature lovers"
+      }
+    ]
+  },
+  "khunti": {
+    "tourist_spots": [
+      {
+        "name": "Panchghagh Falls",
+        "location": "Khunti district (near Ranchi region)",
+        "rating": 4.3,
+        "established": null,
+        "type": "Waterfall / Nature",
+        "entry_fee": "Free / small local charge",
+        "timings": "Daytime (best post-monsoon)",
+        "best_time_to_visit": "Monsoon to Oct (falls in full flow); Oct–Feb comfortable",
+        "highlights": ["Multiple cascades", "Scenic picnic areas"],
+        "criticisms": ["Can be slippery; access may be uneven"],
+        "interest": ["Photography", "Short treks", "Picnics"],
+        "budget": "Low",
+        "ideal_group_size": "Family groups, nature clubs"
+      },
+      {
+        "name": "Perwaghagh Falls",
+        "location": "Khunti area",
+        "rating": 4.1,
+        "established": null,
+        "type": "Waterfall",
+        "entry_fee": "Free",
+        "timings": "Daytime",
+        "best_time_to_visit": "Monsoon & post-monsoon",
+        "highlights": ["Remote waterfall experience", "Good during rains"],
+        "criticisms": ["Remote access; basic facilities"],
+        "interest": ["Adventure seekers", "Nature lovers"],
+        "budget": "Low",
+        "ideal_group_size": "Small adventure groups"
+      },
+      {
+        "name": "Birsa Mrig Vihar (Deer Park)",
+        "location": "Khunti / nearby reserves",
+        "rating": 4.0,
+        "established": null,
+        "type": "Wildlife / Park",
+        "entry_fee": "Small entry fee probable",
+        "timings": "Daytime, mornings best",
+        "best_time_to_visit": "Oct–Mar",
+        "highlights": ["Deer enclosures", "Family-friendly park"],
+        "criticisms": ["Limited collection compared to big zoos"],
+        "interest": ["Children", "Casual wildlife viewing"],
+        "budget": "Low",
+        "ideal_group_size": "Families with children"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Local Dhaba / Eateries (Khunti town)",
+        "location": "Khunti town & roadside",
+        "cuisine": "Veg & Non-Veg (local Jharkhand cuisine)",
+        "rating": 3.8,
+        "price_range": "₹ (budget)",
+        "timings": "All day",
+        "highlights": ["Home-style meals", "Local flavours"],
+        "criticisms": ["Basic setups"],
+        "ideal_for": "Budget travellers, local taste seekers"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Basic Guesthouse (Khunti)",
+        "location": "Khunti town",
+        "rating": 3.2,
+        "class": "Low",
+        "price_range": "₹500–1,000/night",
+        "amenities": ["Simple rooms", "Local host-run"],
+        "ideal_for": "Budget travellers"
+      },
+      {
+        "name": "Mid-range Lodge (near Ranchi/Khunti)",
+        "location": "Near Ranchi outskirts (ideal base for Khunti)",
+        "rating": 3.9,
+        "class": "Mid",
+        "price_range": "₹1,200–2,500/night",
+        "amenities": ["AC rooms", "Guided day-trip options"],
+        "ideal_for": "Families, mid-budget travellers"
+      }
+    ]
+  },
+  "koderma": {
+    "tourist_spots": [
+      {
+        "name": "Tilaiya (Telaiya) Dam",
+        "location": "Tilaiya area, Koderma district",
+        "rating": 4.1,
+        "established": null,
+        "type": "Dam / Scenic",
+        "entry_fee": "Free / small local charges",
+        "timings": "Daytime; sunrise/sunset are scenic",
+        "best_time_to_visit": "Oct–Mar; monsoon for feeding rivers",
+        "highlights": ["Large reservoir views", "Calm picnic spots"],
+        "criticisms": ["Limited tourist facilities"],
+        "interest": ["Relaxation", "Photography"],
+        "budget": "Low",
+        "ideal_group_size": "Families, couples"
+      },
+      {
+        "name": "Koderma Reserve Forest / Local Waterfalls",
+        "location": "Around Koderma district",
+        "rating": 4.0,
+        "established": null,
+        "type": "Forest / Waterfall",
+        "entry_fee": "Free / conservation charges may apply",
+        "timings": "Daytime",
+        "best_time_to_visit": "Monsoon for waterfalls; Oct–Mar for pleasant weather",
+        "highlights": ["Offbeat nature trails", "Local flora & fauna"],
+        "criticisms": ["Limited marked trails and facilities"],
+        "interest": ["Trekking", "Nature exploration"],
+        "budget": "Low–Mid",
+        "ideal_group_size": "Small trekking groups"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Local Dhaba / Hotel Restaurants (Koderma town)",
+        "location": "Koderma town & near Tilaiya",
+        "cuisine": "Veg & Non-Veg",
+        "rating": 3.8,
+        "price_range": "₹ (budget)",
+        "timings": "All day",
+        "highlights": ["Simple North Indian meals", "Local hospitality"],
+        "criticisms": [
+          "Limited variety for travellers used to metropolitan cuisine"
+        ],
+        "ideal_for": "Budget travellers"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Budget Guesthouses (Koderma)",
+        "location": "Koderma town",
+        "rating": 3.3,
+        "class": "Low",
+        "price_range": "₹500–1,200/night",
+        "amenities": ["Basic rooms", "Close to station/markets"],
+        "ideal_for": "Transit stays, budget travellers"
+      },
+      {
+        "name": "Mid-range Hotel (Koderma / Tilaiya area)",
+        "location": "Near main town / dam",
+        "rating": 3.9,
+        "class": "Mid",
+        "price_range": "₹1,200–2,500/night",
+        "amenities": ["AC rooms", "In-house dining"],
+        "ideal_for": "Families, weekend travellers"
+      }
+    ]
+  },
+  "latehar": {
+    "tourist_spots": [
+      {
+        "name": "Netarhat (Magnolia Point / Koel View / Pine forests)",
+        "location": "Netarhat plateau, Latehar district",
+        "rating": 4.6,
+        "established": null,
+        "type": "Hill station / Viewpoints",
+        "entry_fee": "Free (some points may have parking fees)",
+        "timings": "Sunrise & sunset times best; day visits also good",
+        "best_time_to_visit": "Oct–Mar for clear skies; monsoon for greenery & waterfalls",
+        "highlights": [
+          "Famous sunrise & sunset viewpoints",
+          "Wide panoramas and pine groves",
+          "Cool climate"
+        ],
+        "criticisms": [
+          "Limited high-end hotels",
+          "Early-morning viewpoint crowds in season"
+        ],
+        "interest": ["Sunrise photography", "Relaxation", "Short treks"],
+        "budget": "Low–Mid",
+        "ideal_group_size": "Photographers, small groups, families"
+      },
+      {
+        "name": "Lodh (Lower Ghaghri) Falls",
+        "location": "Latehar / nearby Palamu region",
+        "rating": 4.4,
+        "established": null,
+        "type": "Waterfall",
+        "entry_fee": "Free / nominal entry to forest areas",
+        "timings": "Daytime (post-monsoon best)",
+        "best_time_to_visit": "Monsoon (Jul–Sep) & immediately after",
+        "highlights": [
+          "Tall waterfall (one of Jharkhand's notable falls)",
+          "Powerful cascade in rains"
+        ],
+        "criticisms": ["Remote access; limited facilities"],
+        "interest": ["Waterfall viewing", "Nature photography"],
+        "budget": "Low",
+        "ideal_group_size": "Adventure groups, photographers"
+      },
+      {
+        "name": "Betla National Park (nearby / Palamau region)",
+        "location": "Near Latehar (Palamau area)",
+        "rating": 4.3,
+        "established": null,
+        "type": "National Park / Wildlife",
+        "entry_fee": "Park entry and safari charges (varies)",
+        "timings": "Safari timings vary; early morning safaris best",
+        "best_time_to_visit": "Oct–Mar; post-monsoon for greenery & wildlife",
+        "highlights": [
+          "Safari possibilities (deer, langurs, birds)",
+          "Historic Palamu fort & local culture nearby"
+        ],
+        "criticisms": ["Safari slots limited; booking needed in season"],
+        "interest": ["Wildlife safaris", "Birdwatching", "History & nature"],
+        "budget": "Mid (safari charges + stay)",
+        "ideal_group_size": "Families, wildlife enthusiasts"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Local eateries & hotel restaurants (Netarhat / Latehar)",
+        "location": "Netarhat market & Latehar town",
+        "cuisine": "Veg & Non-Veg",
+        "rating": 3.9,
+        "price_range": "₹ (budget to mid)",
+        "timings": "All day (limited late-night options)",
+        "highlights": [
+          "Local cuisine and simple meals",
+          "Tea/refreshment stalls at viewpoints"
+        ],
+        "criticisms": ["Limited variety and upscale choices"],
+        "ideal_for": "Tourists seeking local food"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Government Tourist Rest Houses / Basic Lodges (Netarhat)",
+        "location": "Netarhat",
+        "rating": 3.5,
+        "class": "Low",
+        "price_range": "₹700–1,200/night",
+        "amenities": ["Basic facilities", "Close to viewpoints"],
+        "ideal_for": "Budget travellers, early-risers"
+      },
+      {
+        "name": "Mid-range Hotels / Eco-stays (Netarhat outskirts)",
+        "location": "Netarhat area",
+        "rating": 4.0,
+        "class": "Mid",
+        "price_range": "₹1,500–3,000/night",
+        "amenities": ["Comfort rooms", "Local guided walks"],
+        "ideal_for": "Families, photography groups"
+      },
+      {
+        "name": "Comfort Cottages / Resorts (limited)",
+        "location": "Latehar / nearby hills",
+        "rating": 4.3,
+        "class": "High",
+        "price_range": "₹3,000+/night",
+        "amenities": ["Better amenities", "Good views and privacy"],
+        "ideal_for": "Couples, comfort travellers"
+      }
+    ]
+  }
+}
+{
+  "bokaro_tourist_spots": [
+    {
+      "name": "Shree Ayyappa Temple",
+      "location": "Bokaro Steel City, Jharkhand",
+      "rating": 4.6,
+      "established": 1983,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "Open daily",
+      "best_time_to_visit": "Winter months",
+      "highlights": [
+        "Peaceful and spiritual atmosphere",
+        "Clean marble architecture",
+        "Ideal for prayer and meditation",
+        "Excellent management",
+        "Rarely overcrowded"
+      ],
+      "criticisms": [
+        "Occasional parking difficulties during festivals"
+      ],
+      "interest": [
+        "Spiritual retreat",
+        "Architectural appreciation",
+        "Quiet meditation"
+      ],
+      "budget": "Low (Free entry, minimal travel costs)",
+      "ideal_group_size": "Solo travelers, small families, senior citizens"
+    },
+    {
+      "name": "City Park",
+      "location": "Bokaro Steel City, Jharkhand",
+      "rating": 4.4,
+      "type": "Park",
+      "entry_fee": "Free",
+      "timings": "9:30 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Lush green garden",
+        "Artificial lake with Japanese-styled islands",
+        "Toy train ride",
+        "Venue for festivals like Basant Mela and Chhatth Puja"
+      ],
+      "criticisms": [
+        "Poor lighting after sunset"
+      ],
+      "interest": [
+        "Family outings",
+        "Picnics",
+        "Festival celebrations"
+      ],
+      "budget": "Low (Free entry, optional food and ride costs)",
+      "ideal_group_size": "Families, school groups, couples"
+    },
+    {
+      "name": "Garga Dam",
+      "location": "12 km from Bokaro",
+      "rating": 4.5,
+      "type": "Nature",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Scenic beauty",
+        "Aquatic habitat",
+        "Perfect for picnics and outings",
+        "Damodar River nearby"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Nature photography",
+        "Picnics",
+        "Bird watching"
+      ],
+      "budget": "Low to moderate (transportation and food)",
+      "ideal_group_size": "Friends, families, nature enthusiasts"
+    },
+    {
+      "name": "Jagannath Temple",
+      "location": "Bokaro Steel City, Jharkhand",
+      "rating": 4.3,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 1:00 PM, 3:30 PM – 9:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Replica of Jagannath Puri",
+        "Peaceful and tidy surroundings",
+        "Grand Rath Yatra festival"
+      ],
+      "criticisms": [
+        "Temple pond could be better maintained"
+      ],
+      "interest": [
+        "Cultural festivals",
+        "Spiritual devotion",
+        "Temple architecture"
+      ],
+      "budget": "Low (Free entry, festival costs optional)",
+      "ideal_group_size": "Devotees, cultural tourists, families"
+    },
+    {
+      "name": "Parasnath Hills (Shikharji)",
+      "location": "Giridih district, near Bokaro",
+      "rating": 4.6,
+      "type": "Nature/Religious",
+      "entry_fee": "Free",
+      "timings": "10:00 AM – 10:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Highest peak in Bokaro",
+        "Important Jain pilgrimage site",
+        "Ideal for trekking and hiking",
+        "Surrounded by lush greenery"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Trekking",
+        "Pilgrimage",
+        "Nature exploration"
+      ],
+      "budget": "Moderate (travel, food, gear)",
+      "ideal_group_size": "Pilgrims, trekking groups, adventure seekers"
+    }
+  ]
+}
+
+{
+  "chatra_tourist_spots": [
+    {
+      "name": "Dhankund Waterfall",
+      "distance_from_chatra": "115 km",
+      "rating": 4.2,
+      "type": "Nature",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Hidden cascade with misty views",
+        "Ideal for forest walks and photography",
+        "Peaceful picnic spot"
+      ],
+      "criticisms": [
+        "Remote access",
+        "Slippery rocks during monsoon"
+      ],
+      "interest": [
+        "Nature trekking",
+        "Birdwatching",
+        "Eco-tourism"
+      ],
+      "budget": "Low to moderate",
+      "ideal_group_size": "Friends, nature lovers, small groups"
+    },
+    {
+      "name": "Kunda Cave",
+      "distance_from_chatra": "125 km",
+      "rating": 4.3,
+      "type": "Historic/Spiritual",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "Dry season (October to March)",
+      "highlights": [
+        "Ancient carvings and cool interiors",
+        "Spiritual ambiance",
+        "Folklore-rich experience"
+      ],
+      "criticisms": [
+        "Dark interiors",
+        "Uneven paths"
+      ],
+      "interest": [
+        "History buffs",
+        "Meditation",
+        "Cultural exploration"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Solo travelers, spiritual seekers, small groups"
+    },
+    {
+      "name": "Bheem Barrage",
+      "distance_from_chatra": "110 km",
+      "rating": 4.1,
+      "type": "Nature",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "Winter months",
+      "highlights": [
+        "Calm reservoir with scenic banks",
+        "Ideal for birdwatching and sunset views",
+        "Clean and peaceful"
+      ],
+      "criticisms": [
+        "No boating",
+        "Limited adventure options"
+      ],
+      "interest": [
+        "Photography",
+        "Picnics",
+        "Nature walks"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Families, couples, nature enthusiasts"
+    },
+    {
+      "name": "Mahadev Dham (Itkhori)",
+      "distance_from_chatra": "100 km",
+      "rating": 4.6,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Blend of Buddhist and Hindu architecture",
+        "Peaceful temple campus",
+        "Vibrant festivals like Shivratri"
+      ],
+      "criticisms": [
+        "Crowded during festivals"
+      ],
+      "interest": [
+        "Pilgrimage",
+        "Architecture",
+        "Spiritual meditation"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    },
+    {
+      "name": "Satpahar Hill",
+      "distance_from_chatra": "135 km",
+      "rating": 4.4,
+      "type": "Nature/Trekking",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Seven peaks with panoramic views",
+        "Ideal for sunrise photography",
+        "Folklore and rock formations"
+      ],
+      "criticisms": [
+        "Steep climb",
+        "No safety railings"
+      ],
+      "interest": [
+        "Adventure trekking",
+        "Eco-hiking",
+        "Mythic exploration"
+      ],
+      "budget": "Moderate",
+      "ideal_group_size": "Trekking groups, youth travelers, explorers"
+    }
+  ],
+  "chatra_nearby_hotels": [
+    {
+      "name": "Hotel Shivam Residency",
+      "type": "Hotel",
+      "distance_to_chatra_center_km": 1.0,
+      "rating": 6.8,
+      "luxury_level": "Budget",
+      "price_from": "₹800/night",
+      "positives": ["Affordable stay", "Close to bus stand", "Friendly staff"],
+      "criticisms": ["Basic room decor", "Limited food options"],
+      "reviews": "Fair (18 ratings)"
+    },
+    {
+      "name": "Hotel Triveni Palace",
+      "type": "Hotel",
+      "distance_to_chatra_center_km": 0.8,
+      "rating": 7.2,
+      "luxury_level": "Mid-range",
+      "price_from": "₹1200/night",
+      "positives": ["Clean rooms", "Good location", "Decent restaurant"],
+      "criticisms": ["Occasional power cuts", "No elevator"],
+      "reviews": "Good (25 ratings)"
+    },
+    {
+      "name": "Hotel Rajdeep",
+      "type": "Hotel",
+      "distance_to_chatra_center_km": 1.5,
+      "rating": 5.9,
+      "luxury_level": "Budget",
+      "price_from": "₹700/night",
+      "positives": ["Quiet surroundings", "Budget-friendly"],
+      "criticisms": ["Slow service", "Old furnishings"],
+      "reviews": "Poor (12 ratings)"
+    },
+    {
+      "name": "Hotel Shanti Niketan",
+      "type": "Hotel",
+      "distance_to_chatra_center_km": 2.2,
+      "rating": 7.5,
+      "luxury_level": "Mid-range",
+      "price_from": "₹1500/night",
+      "positives": ["Spacious rooms", "Good breakfast", "Helpful staff"],
+      "criticisms": ["Wi-Fi issues", "Limited parking"],
+      "reviews": "Good (30 ratings)"
+    },
+    {
+      "name": "Hotel Sunrise View",
+      "type": "Hotel",
+      "distance_to_chatra_center_km": 3.0,
+      "rating": 6.2,
+      "luxury_level": "Budget",
+      "price_from": "₹900/night",
+      "positives": ["Nice hill views", "Affordable pricing"],
+      "criticisms": ["No in-house dining", "Noisy during weekends"],
+      "reviews": "Fair (20 ratings)"
+    }
+  ]
+}
+
+{
+  "deoghar_tourist_spots": [
+    {
+      "name": "Baba Baidyanath Temple",
+      "location": "Deoghar, Jharkhand",
+      "rating": 4.4,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "4:00 AM – 3:30 PM, 6:00 PM – 9:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "One of the 12 Jyotirlingas",
+        "Divine atmosphere with radiant darshan",
+        "Blessed pilgrimage site and Shaktipeeth",
+        "Seamless local guidance for arrangements"
+      ],
+      "criticisms": [
+        "Some priests charge higher rates for rituals"
+      ],
+      "interest": [
+        "Spiritual pilgrimage",
+        "Temple architecture",
+        "Religious festivals"
+      ],
+      "budget": "Low (Free entry, minimal travel costs)",
+      "ideal_group_size": "Devotees, families, pilgrims"
+    },
+    {
+      "name": "Basukinath Temple",
+      "location": "43 km from Deoghar",
+      "rating": 4.4,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "5:00 AM – 9:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Peaceful temple complex with surrounding shrines",
+        "Blissful darshan and direct offerings to deity",
+        "Opportunities for poojas with pandas",
+        "Day trip from Baba Baidyanath"
+      ],
+      "criticisms": [
+        "Menace from pandas and photographers",
+        "Slippery paths and hygiene concerns"
+      ],
+      "interest": [
+        "Spiritual devotion",
+        "Pilgrimage sites",
+        "Temple visits"
+      ],
+      "budget": "Low (Free entry, transportation costs)",
+      "ideal_group_size": "Small groups, pilgrims"
+    },
+    {
+      "name": "Trikuta Parvata",
+      "location": "15 km from Deoghar",
+      "rating": 4.3,
+      "type": "Nature/Religious",
+      "entry_fee": "Rs 130 (ropeway)",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Vertically ascending ropeway for exceptional views",
+        "Hanuman temple at summit with historical significance",
+        "Panoramic hill vistas and trekking options",
+        "Guides available for faster access"
+      ],
+      "criticisms": [
+        "Safety concerns with ropeway",
+        "Not suitable for elderly or height-phobic"
+      ],
+      "interest": [
+        "Trekking and hiking",
+        "Adventure rides",
+        "Scenic exploration"
+      ],
+      "budget": "Moderate (ropeway fee, travel)",
+      "ideal_group_size": "Adventure seekers, young groups"
+    },
+    {
+      "name": "Naulakha Mandir",
+      "location": "Deoghar, Jharkhand",
+      "rating": 4.1,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Replica of Belur Math architecture",
+        "Dedicated to Radha-Krishna, 146 ft high",
+        "Beautiful traditional Indian design",
+        "Pleasant green surroundings"
+      ],
+      "criticisms": [
+        "Lack of maintenance in premises",
+        "Approach road needs improvement"
+      ],
+      "interest": [
+        "Architectural appreciation",
+        "Spiritual serenity",
+        "Historical sites"
+      ],
+      "budget": "Low (Free entry, minimal costs)",
+      "ideal_group_size": "Families, cultural tourists"
+    },
+    {
+      "name": "Nandan Pahar",
+      "location": "Deoghar, Jharkhand",
+      "rating": 3.9,
+      "type": "Park/Religious",
+      "entry_fee": "Free",
+      "timings": "Morning to Evening",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Nandi Temple on hilltop",
+        "Amusement park for children",
+        "Toy train ride and evening food stalls",
+        "Serene spot for relaxation"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Family recreation",
+        "Picnics and outings",
+        "Religious visits"
+      ],
+      "budget": "Low (Free entry, optional rides)",
+      "ideal_group_size": "Families with kids, couples"
+    }
+  ],
+  "deoghar_hotels": [
+    {
+      "name": "Imperial Heights",
+      "type": "Hotel",
+      "distance_to_city_center_km": 1.0,
+      "rating": 8.0,
+      "luxury_level": "Mid-range",
+      "price_from": "Varies by date",
+      "positives": [
+        "Spacious stylish rooms",
+        "Modern amenities",
+        "Near temple",
+        "Diverse dining options"
+      ],
+      "criticisms": [
+        "Small bathrooms",
+        "Basic amenities"
+      ],
+      "reviews": "Very Good (100+ ratings)"
+    },
+    {
+      "name": "Ishaan Sarovar Portico",
+      "type": "Hotel",
+      "distance_to_city_center_km": 2.0,
+      "rating": 8.4,
+      "luxury_level": "Mid-range",
+      "price_from": "Varies by date",
+      "positives": [
+        "Comfortable beds",
+        "Good breakfast",
+        "Quiet area"
+      ],
+      "criticisms": [
+        "Wi-Fi issues"
+      ],
+      "reviews": "Very Good (30+ ratings)"
+    },
+    {
+      "name": "Biznotel By Pride",
+      "type": "Hotel",
+      "distance_to_city_center_km": 1.5,
+      "rating": 8.0,
+      "luxury_level": "Mid-range",
+      "price_from": "Varies by date",
+      "positives": [
+        "Convenient location",
+        "Friendly service",
+        "Comfortable stay"
+      ],
+      "criticisms": [
+        "Outdated decor"
+      ],
+      "reviews": "Good (72 ratings)"
+    },
+    {
+      "name": "Hotel Bharati",
+      "type": "Hotel",
+      "distance_to_city_center_km": 0.8,
+      "rating": 8.0,
+      "luxury_level": "Budget",
+      "price_from": "Varies by date",
+      "positives": [
+        "Neat and clean rooms",
+        "Smooth check-in",
+        "Affordable"
+      ],
+      "criticisms": [
+        "Limited parking"
+      ],
+      "reviews": "Very Good (68 ratings)"
+    },
+    {
+      "name": "Geetanjali International",
+      "type": "Hotel",
+      "distance_to_city_center_km": 1.2,
+      "rating": 7.5,
+      "luxury_level": "Mid-range",
+      "price_from": "Varies by date",
+      "positives": [
+        "Good location",
+        "Clean rooms",
+        "Value for money"
+      ],
+      "criticisms": [
+        "Average food quality"
+      ],
+      "reviews": "Good (50+ ratings)"
+    }
+  ]
+}
+
+{
+  "dhanbad_tourist_spots": [
+    {
+      "name": "Maithon Dam",
+      "location": "Maithon, ~52 km from Dhanbad HQ, on the Barakar River",
+      "rating": 4.7,
+      "established": 1957,
+      "type": "Dam/Nature/Leisure",
+      "entry_fee": "Free (boating/parking extra)",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to February",
+      "highlights": [
+        "Largest reservoir of Damodar Valley with an underground power station",
+        "Boating, gardens, viewpoints, and nearby Kalyaneshwari Temple"
+      ],
+      "criticisms": [
+        "Weekend crowds; variable cleanliness near ghats"
+      ],
+      "interest": [
+        "Picnics",
+        "Photography",
+        "Boating"
+      ],
+      "budget": "Low to moderate (transport, boating)",
+      "ideal_group_size": "Families, couples, friends"
+    },
+    {
+      "name": "Panchet Dam",
+      "location": "Panchet, Dhanbad district, on Damodar River",
+      "rating": 4.5,
+      "established": 1959,
+      "type": "Dam/Nature",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to February",
+      "highlights": [
+        "Lush hills and forests around the dam",
+        "Day-trip spot for boating and picnics"
+      ],
+      "criticisms": [
+        "Public transport limited; basic amenities"
+      ],
+      "interest": [
+        "Nature outings",
+        "Picnics",
+        "Photography"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Families, couples, small groups"
+    },
+    {
+      "name": "Bhatinda Falls",
+      "location": "Moonidih area, ~14 km from Dhanbad Railway Station",
+      "rating": 4.6,
+      "established": null,
+      "type": "Waterfall/Nature",
+      "entry_fee": "Free",
+      "timings": "Daylight hours",
+      "best_time_to_visit": "November to February",
+      "highlights": [
+        "Rocky landscape with cascading falls",
+        "Popular winter picnic destination"
+      ],
+      "criticisms": [
+        "Slippery rocks; avoid peak monsoon"
+      ],
+      "interest": [
+        "Nature walks",
+        "Picnics",
+        "Photography"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Families, friends, nature lovers"
+    },
+    {
+      "name": "Topchanchi Lake & Wildlife Sanctuary",
+      "location": "Topchanchi, ~37 km from Dhanbad",
+      "rating": 4.4,
+      "established": 1915 (lake excavation); sanctuary notified later",
+      "type": "Lake/Wildlife/Nature",
+      "entry_fee": "Nominal (sanctuary entry as applicable)",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Serene lake with birdlife and surrounding hills",
+        "Wildlife sanctuary with nature trails"
+      ],
+      "criticisms": [
+        "Facilities vary; seasonal crowding on holidays"
+      ],
+      "interest": [
+        "Bird watching",
+        "Boating",
+        "Nature walks"
+      ],
+      "budget": "Low to moderate",
+      "ideal_group_size": "Families, birders, students"
+    },
+    {
+      "name": "Shakti Mandir",
+      "location": "Shastri Nagar, Dhanbad city",
+      "rating": 4.5,
+      "established": null,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "5:00 AM – 10:00 PM",
+      "best_time_to_visit": "Navratri; October–March",
+      "highlights": [
+        "Prominent temple of Goddess Durga in the city",
+        "Daily aarti and festive decorations"
+      ],
+      "criticisms": [
+        "Parking and queues during festivals"
+      ],
+      "interest": [
+        "Pilgrimage",
+        "City sightseeing",
+        "Cultural visits"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Families, devotees, cultural tourists"
+    },
+    {
+      "name": "Birsa Munda Park",
+      "location": "Baramuri, Dhanbad",
+      "rating": 4.2,
+      "established": null,
+      "type": "Urban Park/Leisure",
+      "entry_fee": "Nominal",
+      "timings": "8:00 AM – 8:00 PM",
+      "best_time_to_visit": "Evenings; October to February",
+      "highlights": [
+        "Large city park with rides and lawns",
+        "Suitable for kids and relaxed walks"
+      ],
+      "criticisms": [
+        "Crowded on weekends; maintenance varies"
+      ],
+      "interest": [
+        "Family outings",
+        "Walks",
+        "Recreation"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Families, seniors, children"
+    },
+    {
+      "name": "Lillori Sthan Mandir",
+      "location": "Hirapur, Dhanbad",
+      "rating": 4.3,
+      "established": null,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 9:00 PM",
+      "best_time_to_visit": "Festivals; October–March",
+      "highlights": [
+        "Historic Shiva temple and local pilgrimage site",
+        "Peaceful setting within city limits"
+      ],
+      "criticisms": [
+        "Limited parking; festive crowds"
+      ],
+      "interest": [
+        "Pilgrimage",
+        "Cultural visits",
+        "Photography"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Families, devotees, small groups"
+    },
+    {
+      "name": "Jharia Coalfields (viewpoints and guided visits nearby)",
+      "location": "Jharia region, Dhanbad",
+      "rating": 4.1,
+      "established": null,
+      "type": "Industrial Heritage/Experience",
+      "entry_fee": "Guided visit costs vary",
+      "timings": "Guided slots/daylight hours",
+      "best_time_to_visit": "October to February",
+      "highlights": [
+        "Insight into India’s coal capital and mining history",
+        "Unique industrial landscapes and educational tours"
+      ],
+      "criticisms": [
+        "Restricted access in active/fire zones; safety protocols essential"
+      ],
+      "interest": [
+        "Industrial heritage",
+        "Photography",
+        "Education"
+      ],
+      "budget": "Moderate (guide/transport)",
+      "ideal_group_size": "Students, enthusiasts, small groups"
+    }
+  ]
+}
+
+{
+  "dumka_tourist_spots": [
+    {
+      "name": "Masanjore Dam (Canada/Palpala Dam)",
+      "location": "Masanjore village, ~31 km south of Dumka HQ, Jharkhand",
+      "rating": 4.6,
+      "established": 1956,
+      "type": "Nature/Dam/Picnic",
+      "entry_fee": "Free (parking/boating as applicable)",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to February",
+      "highlights": [
+        "Picturesque dam on the Mayurakshi River bounded by forested hills",
+        "Popular picnic spot with gardens and viewpoints",
+        "Heritage hydel project with nearby Dak bungalows"
+      ],
+      "criticisms": ["Can get crowded on weekends and holidays"],
+      "interest": ["Picnics", "Photography", "Nature walks"],
+      "budget": "Low to moderate (transport, food, optional boating)",
+      "ideal_group_size": "Families, couples, friends"
+    },
+    {
+      "name": "Baba Basukinath Dham",
+      "location": "Jarmundi Block, ~24–25 km from Dumka HQ, Jharkhand",
+      "rating": 4.7,
+      "established": null,
+      "type": "Religious/Pilgrimage",
+      "entry_fee": "Free",
+      "timings": "4:00 AM – 10:00 PM",
+      "best_time_to_visit": "Shravan month; October to March",
+      "highlights": [
+        "Major Shiva temple and pilgrimage center on the Dumka–Deoghar corridor",
+        "Large seasonal fairs with devotees from across India"
+      ],
+      "criticisms": [
+        "Heavy crowds and long queues during Shravan and Shivratri"
+      ],
+      "interest": ["Pilgrimage", "Temple rituals", "Cultural events"],
+      "budget": "Low (donations optional)",
+      "ideal_group_size": "Devotees, families, religious groups"
+    },
+    {
+      "name": "Malooti (Maluti Temples)",
+      "location": "Shikaripara Block, ~55 km from Dumka HQ, Jharkhand",
+      "rating": 4.5,
+      "established": null,
+      "type": "Heritage/Temple Complex",
+      "entry_fee": "Free",
+      "timings": "8:00 AM – 6:00 PM",
+      "best_time_to_visit": "November to February",
+      "highlights": [
+        "Historic terracotta temple village with dozens of shrines",
+        "Blend of archaeology, art, and religious heritage"
+      ],
+      "criticisms": ["Some structures need conservation; limited signage"],
+      "interest": ["Heritage walks", "Archaeology", "Photography"],
+      "budget": "Low to moderate (transport, guide)",
+      "ideal_group_size": "Students, families, culture enthusiasts"
+    },
+    {
+      "name": "Tatloi Hot Spring",
+      "location": "Tatloi, ~15 km from Dumka HQ, Jharkhand",
+      "rating": 4.3,
+      "established": null,
+      "type": "Nature/Hot Spring",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "Winter (November to February)",
+      "highlights": [
+        "Natural hot water spring in a green, hilly setting",
+        "Clear water and calm atmosphere"
+      ],
+      "criticisms": ["Limited facilities; seasonal access issues in rains"],
+      "interest": ["Nature relaxation", "Short picnics", "Photography"],
+      "budget": "Low",
+      "ideal_group_size": "Families, seniors, small groups"
+    },
+    {
+      "name": "Naag Mandir, Shiv Pahar",
+      "location": "Shiv Pahar, Dumka town, Jharkhand",
+      "rating": 4.2,
+      "established": null,
+      "type": "Religious/Hill Temple",
+      "entry_fee": "Free",
+      "timings": "5:00 AM – 9:00 PM",
+      "best_time_to_visit": "Festivals; October to March",
+      "highlights": [
+        "Temple atop Shiv Pahar hill with multiple shrines",
+        "Local spiritual landmark with city views"
+      ],
+      "criticisms": ["Steps can be steep for seniors"],
+      "interest": ["Devotional visits", "Hill views", "Photography"],
+      "budget": "Low",
+      "ideal_group_size": "Families, devotees, small groups"
+    },
+    {
+      "name": "Baba Sumeshwar Nath Temple",
+      "location": "Saraiyahat Block, ~60 km from Dumka HQ, Jharkhand",
+      "rating": 4.3,
+      "established": null,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Mahashivratri; October to March",
+      "highlights": [
+        "Prominent Shiva temple with local fairs",
+        "Peaceful rural setting"
+      ],
+      "criticisms": ["Peak-day crowding; parking limited"],
+      "interest": ["Pilgrimage", "Rural culture", "Photography"],
+      "budget": "Low",
+      "ideal_group_size": "Devotees, families, cultural visitors"
+    },
+    {
+      "name": "Mayurakshi River (Dumka stretch)",
+      "location": "Flowing through Dumka district, Jharkhand",
+      "rating": 4.1,
+      "established": null,
+      "type": "River/Nature",
+      "entry_fee": "Free",
+      "timings": "Open",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Major river originating at Trikut Hill, feeding Masanjore Dam",
+        "Scenic riverbank spots for walks and photos"
+      ],
+      "criticisms": ["Safety varies with seasonal currents"],
+      "interest": ["Nature walks", "Photography", "Leisure"],
+      "budget": "Low",
+      "ideal_group_size": "Families, couples, solo travelers"
+    },
+    {
+      "name": "Shristi Hill Park",
+      "location": "Dumka town, Jharkhand",
+      "rating": 4.0,
+      "established": null,
+      "type": "Park/Leisure",
+      "entry_fee": "Nominal (if applicable)",
+      "timings": "8:00 AM – 6:00 PM",
+      "best_time_to_visit": "Evenings; October to February",
+      "highlights": [
+        "Hilltop leisure park for families",
+        "City views and walking paths"
+      ],
+      "criticisms": ["Basic amenities; can be busy on weekends"],
+      "interest": ["Family outings", "Walks", "Photography"],
+      "budget": "Low",
+      "ideal_group_size": "Families, seniors, children"
+    }
+  ]
+}
+
+{
+  "east_singhbhum_tourist_spots": [
+    {
+      "name": "Jubilee Park",
+      "location": "Jamshedpur, Jharkhand",
+      "rating": 4.5,
+      "type": "Park/Recreation",
+      "entry_fee": "Free",
+      "timings": "Open daily",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Gigantic urban park",
+        "Popular for jogging and cycling",
+        "Recreation centre and fountains",
+        "Zoo inside the park",
+        "Ideal for family outings and picnics"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Outdoor activities",
+        "Picnics",
+        "Relaxing with friends and family"
+      ],
+      "budget": "Low (Free entry, optional food and rides)",
+      "ideal_group_size": "Families, groups of friends, joggers, cyclists"
+    },
+    {
+      "name": "Bhuvaneshwari Temple",
+      "location": "Telco, Jamshedpur, Jharkhand",
+      "rating": 4.3,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Peaceful temple environment",
+        "Well-maintained temple premises"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Cultural tourism"
+      ],
+      "budget": "Low (Free entry, minimal travel costs)",
+      "ideal_group_size": "Devotees, families, solo travelers"
+    },
+    {
+      "name": "Russi Modi Centre of Excellence",
+      "location": "Jamshedpur, Jharkhand",
+      "rating": 4.4,
+      "type": "Cultural/Corporate Landmark",
+      "entry_fee": "Free",
+      "timings": "Open during office hours",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Tribute to Russi Modi, legendary industrialist",
+        "Symbol of corporate excellence",
+        "Associated with Tata Group",
+        "Architectural landmark in Jamshedpur"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Corporate history",
+        "Architecture",
+        "Cultural exploration"
+      ],
+      "budget": "Low (Free entry, optional guide costs)",
+      "ideal_group_size": "Students, corporate visitors, history enthusiasts"
+    },
+    {
+      "name": "Dalma Wildlife Sanctuary",
+      "location": "Near Jamshedpur, Jharkhand",
+      "rating": 4.5,
+      "type": "Nature/Wildlife",
+      "entry_fee": "Budget-friendly",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Spread over 193 sq. km. forest area",
+        "Rich biodiversity",
+        "Named after goddess Dalma Mai",
+        "River Swarnrekha flows nearby",
+        "Popular for trekking and nature trails"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Wildlife photography",
+        "Nature walks",
+        "Trekking",
+        "Bird watching"
+      ],
+      "budget": "Moderate (travel, food, entry fee)",
+      "ideal_group_size": "Friends, families, wildlife enthusiasts, trekking groups"
+    },
+    {
+      "name": "Tata Steel Zoological Park",
+      "location": "Marine Drive Road, near XLRI, Jubilee Park, Jamshedpur, Jharkhand",
+      "rating": 4.3,
+      "type": "Zoo/Park",
+      "entry_fee": "Budget-friendly",
+      "timings": "9:00 AM – 5:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Zoo and botanical garden",
+        "Located near Jubilee Park",
+        "Popular family attraction",
+        "Easy access from Tatanagar Junction (0.78 km)"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Wildlife viewing",
+        "Family picnics",
+        "Educational trips"
+      ],
+      "budget": "Moderate (entry fee, food, travel)",
+      "ideal_group_size": "Families, school groups, tourists"
+    }
+  ]
+}
+{
+  "garhwa_tourist_spots": [
+    {
+      "name": "Banshankari Devi Temple",
+      "location": "Garhwa, Jharkhand",
+      "rating": 4.5,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Dedicated to goddess Banshankari Devi",
+        "Beautiful temple architecture",
+        "Picturesque natural surroundings",
+        "Peaceful retreat for spiritual seekers"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Pilgrimage",
+        "Cultural tourism"
+      ],
+      "budget": "Low (Free entry, minimal travel costs)",
+      "ideal_group_size": "Devotees, families, solo travelers"
+    },
+    {
+      "name": "Kharagdiha Fort",
+      "location": "Garhwa, Jharkhand",
+      "rating": 4.4,
+      "type": "Historical",
+      "entry_fee": "Free",
+      "timings": "Daytime visits recommended",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Ancient fort with rich history",
+        "Captivating views of surrounding landscape",
+        "Rugged walls and old structures",
+        "Ideal for history lovers"
+      ],
+      "criticisms": [
+        "Limited maintenance of old structures"
+      ],
+      "interest": [
+        "Heritage exploration",
+        "History lovers",
+        "Photography"
+      ],
+      "budget": "Low (Free entry, transport costs only)",
+      "ideal_group_size": "Friends, students, heritage enthusiasts"
+    },
+    {
+      "name": "Jharkhandi Dham",
+      "location": "Garhwa, Jharkhand",
+      "rating": 4.5,
+      "type": "Religious/Spiritual",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Festive seasons and winter months",
+      "highlights": [
+        "Renowned spiritual destination",
+        "Tranquil and serene environment",
+        "Blend of cultural heritage and natural beauty"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Pilgrimage",
+        "Cultural heritage"
+      ],
+      "budget": "Low (Free entry, optional offerings)",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    },
+    {
+      "name": "Bansagar Dam",
+      "location": "Garhwa, Jharkhand",
+      "rating": 4.4,
+      "type": "Nature/Engineering",
+      "entry_fee": "Free",
+      "timings": "Open during daytime",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Important irrigation reservoir",
+        "Scenic water body amidst greenery",
+        "Supports agriculture in the region",
+        "Great spot for outdoor relaxation"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Nature photography",
+        "Engineering marvels",
+        "Picnics and outdoor activities"
+      ],
+      "budget": "Low to moderate (transportation and food)",
+      "ideal_group_size": "Families, nature lovers, engineering students"
+    },
+    {
+      "name": "Ghora Dol",
+      "location": "Garhwa, Jharkhand",
+      "rating": 4.6,
+      "type": "Nature/Cultural",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Hidden natural gem",
+        "Lush green surroundings",
+        "Tranquil hills and valleys",
+        "Great for exploration and photography"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Nature exploration",
+        "Adventure activities",
+        "Cultural sightseeing"
+      ],
+      "budget": "Low (Free entry, travel expenses only)",
+      "ideal_group_size": "Friends, adventure enthusiasts, photographers"
+    }
+  ]
+}
+{
+  "giridih_tourist_spots": [
+    {
+      "name": "Parasnath Hill",
+      "location": "Giridih, Jharkhand",
+      "rating": 4.7,
+      "type": "Nature/Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Highest peak in Jharkhand",
+        "Most sacred Jain pilgrimage site",
+        "Temple dedicated to Lord Parasnath",
+        "Ideal for trekking and cultural exploration"
+      ],
+      "criticisms": [
+        "Trek can be challenging for elderly visitors"
+      ],
+      "interest": [
+        "Trekking",
+        "Pilgrimage",
+        "Jain culture"
+      ],
+      "budget": "Moderate (travel, food, optional guide)",
+      "ideal_group_size": "Pilgrims, trekking groups, cultural tourists"
+    },
+    {
+      "name": "Usri Falls",
+      "location": "Giridih, Jharkhand",
+      "rating": 4.5,
+      "type": "Nature/Waterfall",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "Monsoon and winter months",
+      "highlights": [
+        "Scenic waterfall surrounded by greenery",
+        "Popular picnic spot",
+        "Great for photography and relaxation"
+      ],
+      "criticisms": [
+        "Slippery rocks during monsoon"
+      ],
+      "interest": [
+        "Picnics",
+        "Nature walks",
+        "Photography"
+      ],
+      "budget": "Low (Free entry, food and travel costs)",
+      "ideal_group_size": "Families, friends, nature enthusiasts"
+    },
+    {
+      "name": "Rajrappa Temple",
+      "location": "Near River Bhairavi, Giridih, Jharkhand",
+      "rating": 4.6,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 9:00 PM",
+      "best_time_to_visit": "Festive seasons and winter",
+      "highlights": [
+        "Dedicated to Goddess Chhinamastika",
+        "Situated near the Bhairavi river",
+        "Known for unique rituals and traditions"
+      ],
+      "criticisms": [
+        "Can get very crowded during festivals"
+      ],
+      "interest": [
+        "Spiritual devotion",
+        "Cultural tourism",
+        "Religious rituals"
+      ],
+      "budget": "Low (Free entry, offerings optional)",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    },
+    {
+      "name": "Madhuban Dam",
+      "location": "Giridih, Jharkhand",
+      "rating": 4.4,
+      "type": "Nature/Waterbody",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Beautiful scenic dam site",
+        "Excellent for bird watching",
+        "Fishing activities available",
+        "Peaceful picnic environment"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Bird watching",
+        "Fishing",
+        "Nature outings"
+      ],
+      "budget": "Low to moderate (transportation and food)",
+      "ideal_group_size": "Families, bird watchers, nature lovers"
+    },
+    {
+      "name": "Dhanbad",
+      "location": "Dhanbad, Jharkhand (near Giridih)",
+      "rating": 4.3,
+      "type": "City/Industrial Tourism",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Famous for coal mining industry",
+        "Urban city with multiple attractions",
+        "Known as the Coal Capital of India"
+      ],
+      "criticisms": [
+        "Pollution and traffic in the city"
+      ],
+      "interest": [
+        "Industrial tourism",
+        "City exploration",
+        "Educational trips"
+      ],
+      "budget": "Moderate (food, stay, travel)",
+      "ideal_group_size": "Students, researchers, city tourists"
+    }
+  ]
+}
+{
+  "godda_tourist_spots": [
+    {
+      "name": "Godda Dam",
+      "location": "Near Godda town, Jharkhand",
+      "rating": 4.4,
+      "type": "Nature/Waterbody",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Beautiful views of dam and surroundings",
+        "Ideal for picnics, fishing, and boating",
+        "Serene natural atmosphere"
+      ],
+      "criticisms": [
+        "Limited facilities for visitors"
+      ],
+      "interest": [
+        "Picnics",
+        "Boating",
+        "Fishing",
+        "Nature outings"
+      ],
+      "budget": "Low to moderate (travel, food, optional boating)",
+      "ideal_group_size": "Families, friends, nature enthusiasts"
+    },
+    {
+      "name": "Gaiyari Temple",
+      "location": "Godda, Jharkhand",
+      "rating": 4.3,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Dedicated to Goddess Gaiyari",
+        "Peaceful and spiritual environment",
+        "Ideal for family visits"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Family visits",
+        "Cultural tourism"
+      ],
+      "budget": "Low (Free entry, minimal offerings)",
+      "ideal_group_size": "Families, devotees, solo travelers"
+    },
+    {
+      "name": "Chintamani Temple",
+      "location": "Godda city, Jharkhand",
+      "rating": 4.5,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 9:00 PM",
+      "best_time_to_visit": "Festive seasons and winter",
+      "highlights": [
+        "Dedicated to Lord Shiva",
+        "One of the most beautiful temples in Godda",
+        "Tranquil and spiritual atmosphere"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Pilgrimage",
+        "Spiritual devotion",
+        "Temple architecture"
+      ],
+      "budget": "Low (Free entry, offerings optional)",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    },
+    {
+      "name": "Sono Falls",
+      "location": "Near Godda city, Jharkhand",
+      "rating": 4.6,
+      "type": "Nature/Waterfall",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "Monsoon and winter months",
+      "highlights": [
+        "Magnificent natural waterfall",
+        "Breathtaking views of surroundings",
+        "Ideal picnic destination"
+      ],
+      "criticisms": [
+        "Accessibility may be difficult during monsoon"
+      ],
+      "interest": [
+        "Picnics",
+        "Nature walks",
+        "Photography"
+      ],
+      "budget": "Low to moderate (travel and food)",
+      "ideal_group_size": "Families, friends, photographers, nature lovers"
+    },
+    {
+      "name": "Joginath Temple",
+      "location": "Godda city, Jharkhand",
+      "rating": 4.4,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Dedicated to Lord Shiva",
+        "Beautiful temple architecture",
+        "Peaceful temple surroundings"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Pilgrimage",
+        "Temple architecture"
+      ],
+      "budget": "Low (Free entry, offerings optional)",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    }
+  ]
+}
+{
+  "gumla_tourist_spots": [
+    {
+      "name": "Angrabadi Temple",
+      "location": "Gumla, Jharkhand",
+      "rating": 4.5,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Located on a scenic hilltop",
+        "Dedicated to Lord Shiva",
+        "Popular Hindu pilgrimage site",
+        "Surrounded by natural beauty"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Pilgrimage",
+        "Nature exploration"
+      ],
+      "budget": "Low (Free entry, offerings optional)",
+      "ideal_group_size": "Devotees, families, solo travelers"
+    },
+    {
+      "name": "Palkot Wildlife Sanctuary",
+      "location": "Near Gumla, Jharkhand",
+      "rating": 4.6,
+      "type": "Nature/Wildlife",
+      "entry_fee": "Budget-friendly",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Covers 199 sq. km.",
+        "Home to tigers, leopards, elephants, and deer",
+        "Rich birdlife",
+        "Great spot for wildlife enthusiasts"
+      ],
+      "criticisms": [
+        "Accessibility may be difficult during rains"
+      ],
+      "interest": [
+        "Wildlife photography",
+        "Safari experience",
+        "Bird watching"
+      ],
+      "budget": "Moderate (travel, entry, food)",
+      "ideal_group_size": "Wildlife lovers, families, trekking groups"
+    },
+    {
+      "name": "Chhinnamasta Temple",
+      "location": "Rajrappa, ~45 km from Gumla, Jharkhand",
+      "rating": 4.7,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 9:00 PM",
+      "best_time_to_visit": "Festivals and winter season",
+      "highlights": [
+        "Dedicated to Goddess Chhinnamasta",
+        "Renowned temple with unique rituals",
+        "Stunning traditional architecture"
+      ],
+      "criticisms": [
+        "Heavy crowd during festivals"
+      ],
+      "interest": [
+        "Pilgrimage",
+        "Cultural tourism",
+        "Temple architecture"
+      ],
+      "budget": "Low (Free entry, optional offerings)",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    },
+    {
+      "name": "Suga Dam",
+      "location": "On Suga River, Gumla, Jharkhand",
+      "rating": 4.4,
+      "type": "Nature/Engineering",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Built in the 1960s",
+        "Engineering marvel on Suga River",
+        "Surrounded by lush greenery",
+        "Popular picnic destination"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Nature photography",
+        "Engineering structures",
+        "Picnics"
+      ],
+      "budget": "Low to moderate (travel and food)",
+      "ideal_group_size": "Families, students, nature lovers"
+    },
+    {
+      "name": "Birsa Zoological Park",
+      "location": "Gumla, Jharkhand",
+      "rating": 4.5,
+      "type": "Zoo/Nature",
+      "entry_fee": "Budget-friendly",
+      "timings": "9:00 AM – 5:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Covers 104 hectares",
+        "Home to tigers, lions, elephants, and birds",
+        "Includes a boating lake",
+        "Popular for family trips"
+      ],
+      "criticisms": [
+        "Limited food stalls inside park"
+      ],
+      "interest": [
+        "Wildlife exploration",
+        "Family outings",
+        "Boating"
+      ],
+      "budget": "Moderate (entry fee, food, travel)",
+      "ideal_group_size": "Families, school groups, tourists"
+    }
+  ]
+}
