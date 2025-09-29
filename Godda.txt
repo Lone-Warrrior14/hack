@@ -1,0 +1,119 @@
+{
+  "godda_tourist_spots": [
+    {
+      "name": "Godda Dam",
+      "location": "Near Godda town, Jharkhand",
+      "rating": 4.4,
+      "type": "Nature/Waterbody",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Beautiful views of dam and surroundings",
+        "Ideal for picnics, fishing, and boating",
+        "Serene natural atmosphere"
+      ],
+      "criticisms": [
+        "Limited facilities for visitors"
+      ],
+      "interest": [
+        "Picnics",
+        "Boating",
+        "Fishing",
+        "Nature outings"
+      ],
+      "budget": "Low to moderate (travel, food, optional boating)",
+      "ideal_group_size": "Families, friends, nature enthusiasts"
+    },
+    {
+      "name": "Gaiyari Temple",
+      "location": "Godda, Jharkhand",
+      "rating": 4.3,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Dedicated to Goddess Gaiyari",
+        "Peaceful and spiritual environment",
+        "Ideal for family visits"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Family visits",
+        "Cultural tourism"
+      ],
+      "budget": "Low (Free entry, minimal offerings)",
+      "ideal_group_size": "Families, devotees, solo travelers"
+    },
+    {
+      "name": "Chintamani Temple",
+      "location": "Godda city, Jharkhand",
+      "rating": 4.5,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 9:00 PM",
+      "best_time_to_visit": "Festive seasons and winter",
+      "highlights": [
+        "Dedicated to Lord Shiva",
+        "One of the most beautiful temples in Godda",
+        "Tranquil and spiritual atmosphere"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Pilgrimage",
+        "Spiritual devotion",
+        "Temple architecture"
+      ],
+      "budget": "Low (Free entry, offerings optional)",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    },
+    {
+      "name": "Sono Falls",
+      "location": "Near Godda city, Jharkhand",
+      "rating": 4.6,
+      "type": "Nature/Waterfall",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "Monsoon and winter months",
+      "highlights": [
+        "Magnificent natural waterfall",
+        "Breathtaking views of surroundings",
+        "Ideal picnic destination"
+      ],
+      "criticisms": [
+        "Accessibility may be difficult during monsoon"
+      ],
+      "interest": [
+        "Picnics",
+        "Nature walks",
+        "Photography"
+      ],
+      "budget": "Low to moderate (travel and food)",
+      "ideal_group_size": "Families, friends, photographers, nature lovers"
+    },
+    {
+      "name": "Joginath Temple",
+      "location": "Godda city, Jharkhand",
+      "rating": 4.4,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "Throughout the year",
+      "highlights": [
+        "Dedicated to Lord Shiva",
+        "Beautiful temple architecture",
+        "Peaceful temple surroundings"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Spiritual devotion",
+        "Pilgrimage",
+        "Temple architecture"
+      ],
+      "budget": "Low (Free entry, offerings optional)",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    }
+  ]
+}
