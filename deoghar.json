@@ -1,0 +1,219 @@
+{
+  "deoghar_tourist_spots": [
+    {
+      "name": "Baba Baidyanath Temple",
+      "location": "Deoghar, Jharkhand",
+      "rating": 4.4,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "4:00 AM – 3:30 PM, 6:00 PM – 9:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "One of the 12 Jyotirlingas",
+        "Divine atmosphere with radiant darshan",
+        "Blessed pilgrimage site and Shaktipeeth",
+        "Seamless local guidance for arrangements"
+      ],
+      "criticisms": [
+        "Some priests charge higher rates for rituals"
+      ],
+      "interest": [
+        "Spiritual pilgrimage",
+        "Temple architecture",
+        "Religious festivals"
+      ],
+      "budget": "Low (Free entry, minimal travel costs)",
+      "ideal_group_size": "Devotees, families, pilgrims"
+    },
+    {
+      "name": "Basukinath Temple",
+      "location": "43 km from Deoghar",
+      "rating": 4.4,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "5:00 AM – 9:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Peaceful temple complex with surrounding shrines",
+        "Blissful darshan and direct offerings to deity",
+        "Opportunities for poojas with pandas",
+        "Day trip from Baba Baidyanath"
+      ],
+      "criticisms": [
+        "Menace from pandas and photographers",
+        "Slippery paths and hygiene concerns"
+      ],
+      "interest": [
+        "Spiritual devotion",
+        "Pilgrimage sites",
+        "Temple visits"
+      ],
+      "budget": "Low (Free entry, transportation costs)",
+      "ideal_group_size": "Small groups, pilgrims"
+    },
+    {
+      "name": "Trikuta Parvata",
+      "location": "15 km from Deoghar",
+      "rating": 4.3,
+      "type": "Nature/Religious",
+      "entry_fee": "Rs 130 (ropeway)",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Vertically ascending ropeway for exceptional views",
+        "Hanuman temple at summit with historical significance",
+        "Panoramic hill vistas and trekking options",
+        "Guides available for faster access"
+      ],
+      "criticisms": [
+        "Safety concerns with ropeway",
+        "Not suitable for elderly or height-phobic"
+      ],
+      "interest": [
+        "Trekking and hiking",
+        "Adventure rides",
+        "Scenic exploration"
+      ],
+      "budget": "Moderate (ropeway fee, travel)",
+      "ideal_group_size": "Adventure seekers, young groups"
+    },
+    {
+      "name": "Naulakha Mandir",
+      "location": "Deoghar, Jharkhand",
+      "rating": 4.1,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Replica of Belur Math architecture",
+        "Dedicated to Radha-Krishna, 146 ft high",
+        "Beautiful traditional Indian design",
+        "Pleasant green surroundings"
+      ],
+      "criticisms": [
+        "Lack of maintenance in premises",
+        "Approach road needs improvement"
+      ],
+      "interest": [
+        "Architectural appreciation",
+        "Spiritual serenity",
+        "Historical sites"
+      ],
+      "budget": "Low (Free entry, minimal costs)",
+      "ideal_group_size": "Families, cultural tourists"
+    },
+    {
+      "name": "Nandan Pahar",
+      "location": "Deoghar, Jharkhand",
+      "rating": 3.9,
+      "type": "Park/Religious",
+      "entry_fee": "Free",
+      "timings": "Morning to Evening",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Nandi Temple on hilltop",
+        "Amusement park for children",
+        "Toy train ride and evening food stalls",
+        "Serene spot for relaxation"
+      ],
+      "criticisms": [],
+      "interest": [
+        "Family recreation",
+        "Picnics and outings",
+        "Religious visits"
+      ],
+      "budget": "Low (Free entry, optional rides)",
+      "ideal_group_size": "Families with kids, couples"
+    }
+  ],
+  "deoghar_hotels": [
+    {
+      "name": "Imperial Heights",
+      "type": "Hotel",
+      "distance_to_city_center_km": 1.0,
+      "rating": 8.0,
+      "luxury_level": "Mid-range",
+      "price_from": "Varies by date",
+      "positives": [
+        "Spacious stylish rooms",
+        "Modern amenities",
+        "Near temple",
+        "Diverse dining options"
+      ],
+      "criticisms": [
+        "Small bathrooms",
+        "Basic amenities"
+      ],
+      "reviews": "Very Good (100+ ratings)"
+    },
+    {
+      "name": "Ishaan Sarovar Portico",
+      "type": "Hotel",
+      "distance_to_city_center_km": 2.0,
+      "rating": 8.4,
+      "luxury_level": "Mid-range",
+      "price_from": "Varies by date",
+      "positives": [
+        "Comfortable beds",
+        "Good breakfast",
+        "Quiet area"
+      ],
+      "criticisms": [
+        "Wi-Fi issues"
+      ],
+      "reviews": "Very Good (30+ ratings)"
+    },
+    {
+      "name": "Biznotel By Pride",
+      "type": "Hotel",
+      "distance_to_city_center_km": 1.5,
+      "rating": 8.0,
+      "luxury_level": "Mid-range",
+      "price_from": "Varies by date",
+      "positives": [
+        "Convenient location",
+        "Friendly service",
+        "Comfortable stay"
+      ],
+      "criticisms": [
+        "Outdated decor"
+      ],
+      "reviews": "Good (72 ratings)"
+    },
+    {
+      "name": "Hotel Bharati",
+      "type": "Hotel",
+      "distance_to_city_center_km": 0.8,
+      "rating": 8.0,
+      "luxury_level": "Budget",
+      "price_from": "Varies by date",
+      "positives": [
+        "Neat and clean rooms",
+        "Smooth check-in",
+        "Affordable"
+      ],
+      "criticisms": [
+        "Limited parking"
+      ],
+      "reviews": "Very Good (68 ratings)"
+    },
+    {
+      "name": "Geetanjali International",
+      "type": "Hotel",
+      "distance_to_city_center_km": 1.2,
+      "rating": 7.5,
+      "luxury_level": "Mid-range",
+      "price_from": "Varies by date",
+      "positives": [
+        "Good location",
+        "Clean rooms",
+        "Value for money"
+      ],
+      "criticisms": [
+        "Average food quality"
+      ],
+      "reviews": "Good (50+ ratings)"
+    }
+  ]
+}

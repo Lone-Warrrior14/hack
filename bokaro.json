@@ -1,4 +1,3 @@
-
 {
   "bokaro_tourist_spots": [
     {
@@ -6,6 +5,10 @@
       "location": "Bokaro Steel City, Jharkhand",
       "rating": 4.6,
       "established": 1983,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "Open daily",
+      "best_time_to_visit": "Winter months",
       "highlights": [
         "Peaceful and spiritual atmosphere",
         "Clean marble architecture",
@@ -16,15 +19,22 @@
       "criticisms": [
         "Occasional parking difficulties during festivals"
       ],
-      "entry_fee": "Free",
-      "timings": "Open daily",
-      "best_time_to_visit": "Winter months",
-      "type": "Religious"
+      "interest": [
+        "Spiritual retreat",
+        "Architectural appreciation",
+        "Quiet meditation"
+      ],
+      "budget": "Low (Free entry, minimal travel costs)",
+      "ideal_group_size": "Solo travelers, small families, senior citizens"
     },
     {
       "name": "City Park",
       "location": "Bokaro Steel City, Jharkhand",
       "rating": 4.4,
+      "type": "Park",
+      "entry_fee": "Free",
+      "timings": "9:30 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
       "highlights": [
         "Lush green garden",
         "Artificial lake with Japanese-styled islands",
@@ -34,15 +44,22 @@
       "criticisms": [
         "Poor lighting after sunset"
       ],
-      "entry_fee": "Free",
-      "timings": "9:30 AM – 6:00 PM",
-      "best_time_to_visit": "October to March",
-      "type": "Park"
+      "interest": [
+        "Family outings",
+        "Picnics",
+        "Festival celebrations"
+      ],
+      "budget": "Low (Free entry, optional food and ride costs)",
+      "ideal_group_size": "Families, school groups, couples"
     },
     {
       "name": "Garga Dam",
       "location": "12 km from Bokaro",
       "rating": 4.5,
+      "type": "Nature",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "Throughout the year",
       "highlights": [
         "Scenic beauty",
         "Aquatic habitat",
@@ -50,15 +67,22 @@
         "Damodar River nearby"
       ],
       "criticisms": [],
-      "entry_fee": "NA",
-      "timings": "NA",
-      "best_time_to_visit": "Throughout the year",
-      "type": "Nature"
+      "interest": [
+        "Nature photography",
+        "Picnics",
+        "Bird watching"
+      ],
+      "budget": "Low to moderate (transportation and food)",
+      "ideal_group_size": "Friends, families, nature enthusiasts"
     },
     {
       "name": "Jagannath Temple",
       "location": "Bokaro Steel City, Jharkhand",
       "rating": 4.3,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 1:00 PM, 3:30 PM – 9:00 PM",
+      "best_time_to_visit": "Throughout the year",
       "highlights": [
         "Replica of Jagannath Puri",
         "Peaceful and tidy surroundings",
@@ -67,15 +91,22 @@
       "criticisms": [
         "Temple pond could be better maintained"
       ],
-      "entry_fee": "NA",
-      "timings": "6:00 AM – 1:00 PM, 3:30 PM – 9:00 PM",
-      "best_time_to_visit": "Throughout the year",
-      "type": "Religious"
+      "interest": [
+        "Cultural festivals",
+        "Spiritual devotion",
+        "Temple architecture"
+      ],
+      "budget": "Low (Free entry, festival costs optional)",
+      "ideal_group_size": "Devotees, cultural tourists, families"
     },
     {
       "name": "Parasnath Hills (Shikharji)",
       "location": "Giridih district, near Bokaro",
       "rating": 4.6,
+      "type": "Nature/Religious",
+      "entry_fee": "Free",
+      "timings": "10:00 AM – 10:00 PM",
+      "best_time_to_visit": "October to March",
       "highlights": [
         "Highest peak in Bokaro",
         "Important Jain pilgrimage site",
@@ -83,23 +114,13 @@
         "Surrounded by lush greenery"
       ],
       "criticisms": [],
-      "entry_fee": "Free",
-      "timings": "10:00 AM – 10:00 PM",
-      "best_time_to_visit": "October to March",
-      "type": "Nature/Religious"
+      "interest": [
+        "Trekking",
+        "Pilgrimage",
+        "Nature exploration"
+      ],
+      "budget": "Moderate (travel, food, gear)",
+      "ideal_group_size": "Pilgrims, trekking groups, adventure seekers"
     }
-  ],
-  "overall_summary": {
-    "average_rating": "4.2–4.6",
-    "themes": [
-      "Relaxing",
-      "Spiritual",
-      "Nature-focused"
-    ],
-    "common_issues": [
-      "Maintenance during peak times",
-      "Crowds during festivals"
-    ],
-    "cost": "Free or low-cost"
-  }
+  ]
 }

@@ -1,0 +1,185 @@
+{
+  "chatra_tourist_spots": [
+    {
+      "name": "Dhankund Waterfall",
+      "distance_from_chatra": "115 km",
+      "rating": 4.2,
+      "type": "Nature",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Hidden cascade with misty views",
+        "Ideal for forest walks and photography",
+        "Peaceful picnic spot"
+      ],
+      "criticisms": [
+        "Remote access",
+        "Slippery rocks during monsoon"
+      ],
+      "interest": [
+        "Nature trekking",
+        "Birdwatching",
+        "Eco-tourism"
+      ],
+      "budget": "Low to moderate",
+      "ideal_group_size": "Friends, nature lovers, small groups"
+    },
+    {
+      "name": "Kunda Cave",
+      "distance_from_chatra": "125 km",
+      "rating": 4.3,
+      "type": "Historic/Spiritual",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "Dry season (October to March)",
+      "highlights": [
+        "Ancient carvings and cool interiors",
+        "Spiritual ambiance",
+        "Folklore-rich experience"
+      ],
+      "criticisms": [
+        "Dark interiors",
+        "Uneven paths"
+      ],
+      "interest": [
+        "History buffs",
+        "Meditation",
+        "Cultural exploration"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Solo travelers, spiritual seekers, small groups"
+    },
+    {
+      "name": "Bheem Barrage",
+      "distance_from_chatra": "110 km",
+      "rating": 4.1,
+      "type": "Nature",
+      "entry_fee": "Free",
+      "timings": "Open throughout the day",
+      "best_time_to_visit": "Winter months",
+      "highlights": [
+        "Calm reservoir with scenic banks",
+        "Ideal for birdwatching and sunset views",
+        "Clean and peaceful"
+      ],
+      "criticisms": [
+        "No boating",
+        "Limited adventure options"
+      ],
+      "interest": [
+        "Photography",
+        "Picnics",
+        "Nature walks"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Families, couples, nature enthusiasts"
+    },
+    {
+      "name": "Mahadev Dham (Itkhori)",
+      "distance_from_chatra": "100 km",
+      "rating": 4.6,
+      "type": "Religious",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 8:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Blend of Buddhist and Hindu architecture",
+        "Peaceful temple campus",
+        "Vibrant festivals like Shivratri"
+      ],
+      "criticisms": [
+        "Crowded during festivals"
+      ],
+      "interest": [
+        "Pilgrimage",
+        "Architecture",
+        "Spiritual meditation"
+      ],
+      "budget": "Low",
+      "ideal_group_size": "Devotees, families, cultural tourists"
+    },
+    {
+      "name": "Satpahar Hill",
+      "distance_from_chatra": "135 km",
+      "rating": 4.4,
+      "type": "Nature/Trekking",
+      "entry_fee": "Free",
+      "timings": "6:00 AM – 6:00 PM",
+      "best_time_to_visit": "October to March",
+      "highlights": [
+        "Seven peaks with panoramic views",
+        "Ideal for sunrise photography",
+        "Folklore and rock formations"
+      ],
+      "criticisms": [
+        "Steep climb",
+        "No safety railings"
+      ],
+      "interest": [
+        "Adventure trekking",
+        "Eco-hiking",
+        "Mythic exploration"
+      ],
+      "budget": "Moderate",
+      "ideal_group_size": "Trekking groups, youth travelers, explorers"
+    }
+  ],
+  "chatra_nearby_hotels": [
+    {
+      "name": "Hotel Shivam Residency",
+      "type": "Hotel",
+      "distance_to_chatra_center_km": 1.0,
+      "rating": 6.8,
+      "luxury_level": "Budget",
+      "price_from": "₹800/night",
+      "positives": ["Affordable stay", "Close to bus stand", "Friendly staff"],
+      "criticisms": ["Basic room decor", "Limited food options"],
+      "reviews": "Fair (18 ratings)"
+    },
+    {
+      "name": "Hotel Triveni Palace",
+      "type": "Hotel",
+      "distance_to_chatra_center_km": 0.8,
+      "rating": 7.2,
+      "luxury_level": "Mid-range",
+      "price_from": "₹1200/night",
+      "positives": ["Clean rooms", "Good location", "Decent restaurant"],
+      "criticisms": ["Occasional power cuts", "No elevator"],
+      "reviews": "Good (25 ratings)"
+    },
+    {
+      "name": "Hotel Rajdeep",
+      "type": "Hotel",
+      "distance_to_chatra_center_km": 1.5,
+      "rating": 5.9,
+      "luxury_level": "Budget",
+      "price_from": "₹700/night",
+      "positives": ["Quiet surroundings", "Budget-friendly"],
+      "criticisms": ["Slow service", "Old furnishings"],
+      "reviews": "Poor (12 ratings)"
+    },
+    {
+      "name": "Hotel Shanti Niketan",
+      "type": "Hotel",
+      "distance_to_chatra_center_km": 2.2,
+      "rating": 7.5,
+      "luxury_level": "Mid-range",
+      "price_from": "₹1500/night",
+      "positives": ["Spacious rooms", "Good breakfast", "Helpful staff"],
+      "criticisms": ["Wi-Fi issues", "Limited parking"],
+      "reviews": "Good (30 ratings)"
+    },
+    {
+      "name": "Hotel Sunrise View",
+      "type": "Hotel",
+      "distance_to_chatra_center_km": 3.0,
+      "rating": 6.2,
+      "luxury_level": "Budget",
+      "price_from": "₹900/night",
+      "positives": ["Nice hill views", "Affordable pricing"],
+      "criticisms": ["No in-house dining", "Noisy during weekends"],
+      "reviews": "Fair (20 ratings)"
+    }
+  ]
+}
